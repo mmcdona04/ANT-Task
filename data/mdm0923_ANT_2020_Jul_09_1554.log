@@ -1,0 +1,2104 @@
+1.9324 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+24.2077 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0., 0., 0.]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000016E0139AFD0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000016E01040CC0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+24.2079 	EXP 	window1: recordFrameIntervals = False
+24.3593 	EXP 	window1: recordFrameIntervals = True
+24.5426 	EXP 	window1: recordFrameIntervals = False
+25.9436 	EXP 	Created pracText1 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='pracText1', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+26.0173 	EXP 	Created practInst2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='practInst2', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+26.0411 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='stim/fix.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+26.0445 	EXP 	Created cues = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='cues', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+26.0480 	EXP 	Created target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='target', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+26.0534 	EXP 	Created fixationshort = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='stim/fix.png', interpolate=True, mask=None, maskParams=None, name='fixationshort', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+26.0568 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=' ', units='height', win=Window(...), wrapWidth=1)
+26.1013 	EXP 	Created mainInst = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='mainInst', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+26.1112 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='stim/fix.png', interpolate=True, mask=None, maskParams=None, name='image', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+26.1165 	EXP 	Created cues = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='cues', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+26.1226 	EXP 	Created target = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='target', opacity=1.0, ori=1.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+26.1340 	EXP 	Created fixationshort = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='stim/fix.png', interpolate=True, mask=None, maskParams=None, name='fixationshort', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.25, 0.25]), texRes=128, units='height', win=Window(...))
+26.1758 	EXP 	Created rest = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='rest', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+26.2567 	EXP 	Created endText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='endText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text=str(...), units='height', win=Window(...), wrapWidth=1)
+26.3132 	EXP 	pracText1: autoDraw = True
+28.9989 	DATA 	Keypress: space
+29.0065 	EXP 	pracText1: autoDraw = False
+29.0065 	EXP 	practInst2: autoDraw = True
+31.1104 	DATA 	Keypress: space
+31.6574 	EXP 	Imported cond.xlsx as conditions, 24 conditions, 4 params
+31.6605 	EXP 	Created sequence: random, trialTypes=24, nReps=1, seed=None
+31.6611 	EXP 	New trial (rep=0, index=0): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+31.7116 	EXP 	practInst2: autoDraw = False
+31.7116 	EXP 	image: autoDraw = True
+32.2443 	EXP 	image: autoDraw = False
+32.2443 	EXP 	image: autoDraw = False
+32.2443 	EXP 	cues: image = 'stim/blank.png'
+32.2443 	EXP 	target: ori = 0.0
+32.2443 	EXP 	target: image = 'stim/incongLeft.png'
+32.2443 	EXP 	cues: autoDraw = True
+32.2443 	EXP 	fixationshort: autoDraw = True
+32.3526 	EXP 	cues: autoDraw = False
+32.7359 	EXP 	target: autoDraw = True
+32.7523 	EXP 	fixationshort: autoDraw = False
+33.3746 	DATA 	Keypress: left
+33.4540 	EXP 	cues: autoDraw = False
+33.4540 	EXP 	target: autoDraw = False
+33.4540 	EXP 	fixationshort: autoDraw = False
+33.4540 	EXP 	text: text = 'Correct! Your RT is : 0.64'
+33.4540 	EXP 	text: autoDraw = True
+34.4559 	EXP 	New trial (rep=0, index=1): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+34.4678 	EXP 	text: autoDraw = False
+34.4678 	EXP 	text: autoDraw = False
+34.4678 	EXP 	image: autoDraw = True
+34.8890 	EXP 	image: autoDraw = False
+34.8890 	EXP 	image: autoDraw = False
+34.8890 	EXP 	cues: image = 'stim/both.png'
+34.8890 	EXP 	target: ori = 0.0
+34.8890 	EXP 	target: image = 'stim/congRight.png'
+34.8890 	EXP 	cues: autoDraw = True
+34.8890 	EXP 	fixationshort: autoDraw = True
+35.0005 	EXP 	cues: autoDraw = False
+35.3837 	EXP 	target: autoDraw = True
+35.4001 	EXP 	fixationshort: autoDraw = False
+35.9224 	DATA 	Keypress: right
+35.9699 	EXP 	cues: autoDraw = False
+35.9699 	EXP 	target: autoDraw = False
+35.9699 	EXP 	fixationshort: autoDraw = False
+35.9699 	EXP 	text: text = 'Correct! Your RT is : 0.54'
+35.9699 	EXP 	text: autoDraw = True
+36.9703 	EXP 	New trial (rep=0, index=2): OrderedDict([('cue', 'stim/lower.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+36.9824 	EXP 	text: autoDraw = False
+36.9824 	EXP 	text: autoDraw = False
+36.9824 	EXP 	image: autoDraw = True
+37.4052 	EXP 	image: autoDraw = False
+37.4052 	EXP 	image: autoDraw = False
+37.4052 	EXP 	cues: image = 'stim/lower.png'
+37.4052 	EXP 	target: ori = 180.0
+37.4052 	EXP 	target: image = 'stim/congLeft.png'
+37.4052 	EXP 	cues: autoDraw = True
+37.4052 	EXP 	fixationshort: autoDraw = True
+37.5151 	EXP 	cues: autoDraw = False
+37.8983 	EXP 	target: autoDraw = True
+37.9151 	EXP 	fixationshort: autoDraw = False
+38.5184 	DATA 	Keypress: right
+38.5215 	EXP 	cues: autoDraw = False
+38.5215 	EXP 	target: autoDraw = False
+38.5215 	EXP 	fixationshort: autoDraw = False
+38.5215 	EXP 	text: text = 'Correct! Your RT is : 0.58'
+38.5215 	EXP 	text: autoDraw = True
+39.5174 	EXP 	New trial (rep=0, index=3): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+39.5304 	EXP 	text: autoDraw = False
+39.5304 	EXP 	text: autoDraw = False
+39.5304 	EXP 	image: autoDraw = True
+40.0524 	EXP 	image: autoDraw = False
+40.0524 	EXP 	image: autoDraw = False
+40.0524 	EXP 	cues: image = 'stim/centre.png'
+40.0524 	EXP 	target: ori = 180.0
+40.0524 	EXP 	target: image = 'stim/congLeft.png'
+40.0524 	EXP 	cues: autoDraw = True
+40.0524 	EXP 	fixationshort: autoDraw = True
+40.1629 	EXP 	cues: autoDraw = False
+40.5465 	EXP 	target: autoDraw = True
+40.5627 	EXP 	fixationshort: autoDraw = False
+41.0505 	DATA 	Keypress: right
+41.0955 	EXP 	cues: autoDraw = False
+41.0955 	EXP 	target: autoDraw = False
+41.0955 	EXP 	fixationshort: autoDraw = False
+41.0955 	EXP 	text: text = 'Correct! Your RT is : 0.5'
+41.0955 	EXP 	text: autoDraw = True
+42.0829 	EXP 	New trial (rep=0, index=4): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+42.0949 	EXP 	text: autoDraw = False
+42.0949 	EXP 	text: autoDraw = False
+42.0949 	EXP 	image: autoDraw = True
+42.5465 	EXP 	image: autoDraw = False
+42.5465 	EXP 	image: autoDraw = False
+42.5465 	EXP 	cues: image = 'stim/centre.png'
+42.5465 	EXP 	target: ori = 0.0
+42.5465 	EXP 	target: image = 'stim/congLeft.png'
+42.5465 	EXP 	cues: autoDraw = True
+42.5465 	EXP 	fixationshort: autoDraw = True
+42.6611 	EXP 	cues: autoDraw = False
+43.0441 	EXP 	target: autoDraw = True
+43.0609 	EXP 	fixationshort: autoDraw = False
+43.5296 	DATA 	Keypress: left
+43.5328 	EXP 	cues: autoDraw = False
+43.5328 	EXP 	target: autoDraw = False
+43.5328 	EXP 	fixationshort: autoDraw = False
+43.5328 	EXP 	text: text = 'Correct! Your RT is : 0.44'
+43.5328 	EXP 	text: autoDraw = True
+44.5309 	EXP 	New trial (rep=0, index=5): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+44.5427 	EXP 	text: autoDraw = False
+44.5427 	EXP 	text: autoDraw = False
+44.5427 	EXP 	image: autoDraw = True
+44.9422 	EXP 	image: autoDraw = False
+44.9422 	EXP 	image: autoDraw = False
+44.9422 	EXP 	cues: image = 'stim/centre.png'
+44.9422 	EXP 	target: ori = 180.0
+44.9422 	EXP 	target: image = 'stim/incongLeft.png'
+44.9422 	EXP 	cues: autoDraw = True
+44.9422 	EXP 	fixationshort: autoDraw = True
+45.0423 	EXP 	cues: autoDraw = False
+45.4257 	EXP 	target: autoDraw = True
+45.4420 	EXP 	fixationshort: autoDraw = False
+46.0300 	DATA 	Keypress: right
+46.0611 	EXP 	cues: autoDraw = False
+46.0611 	EXP 	target: autoDraw = False
+46.0611 	EXP 	fixationshort: autoDraw = False
+46.0611 	EXP 	text: text = 'Correct! Your RT is : 0.6'
+46.0611 	EXP 	text: autoDraw = True
+47.0620 	EXP 	New trial (rep=0, index=6): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+47.0741 	EXP 	text: autoDraw = False
+47.0741 	EXP 	text: autoDraw = False
+47.0741 	EXP 	image: autoDraw = True
+47.4781 	EXP 	image: autoDraw = False
+47.4781 	EXP 	image: autoDraw = False
+47.4781 	EXP 	cues: image = 'stim/blank.png'
+47.4781 	EXP 	target: ori = 0.0
+47.4781 	EXP 	target: image = 'stim/congRight.png'
+47.4781 	EXP 	cues: autoDraw = True
+47.4781 	EXP 	fixationshort: autoDraw = True
+47.5905 	EXP 	cues: autoDraw = False
+47.9735 	EXP 	target: autoDraw = True
+47.9902 	EXP 	fixationshort: autoDraw = False
+48.5723 	DATA 	Keypress: right
+48.5750 	EXP 	cues: autoDraw = False
+48.5750 	EXP 	target: autoDraw = False
+48.5750 	EXP 	fixationshort: autoDraw = False
+48.5750 	EXP 	text: text = 'Correct! Your RT is : 0.58'
+48.5750 	EXP 	text: autoDraw = True
+49.5762 	EXP 	New trial (rep=0, index=7): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+49.5887 	EXP 	text: autoDraw = False
+49.5887 	EXP 	text: autoDraw = False
+49.5887 	EXP 	image: autoDraw = True
+49.9905 	EXP 	image: autoDraw = False
+49.9905 	EXP 	image: autoDraw = False
+49.9905 	EXP 	cues: image = 'stim/blank.png'
+49.9905 	EXP 	target: ori = 180.0
+49.9905 	EXP 	target: image = 'stim/incongLeft.png'
+49.9905 	EXP 	cues: autoDraw = True
+49.9905 	EXP 	fixationshort: autoDraw = True
+50.1050 	EXP 	cues: autoDraw = False
+50.4880 	EXP 	target: autoDraw = True
+50.5045 	EXP 	fixationshort: autoDraw = False
+51.3603 	DATA 	Keypress: right
+51.4088 	EXP 	cues: autoDraw = False
+51.4088 	EXP 	target: autoDraw = False
+51.4088 	EXP 	fixationshort: autoDraw = False
+51.4088 	EXP 	text: text = 'Correct! Your RT is : 0.87'
+51.4088 	EXP 	text: autoDraw = True
+52.4073 	EXP 	New trial (rep=0, index=8): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+52.4199 	EXP 	text: autoDraw = False
+52.4199 	EXP 	text: autoDraw = False
+52.4199 	EXP 	image: autoDraw = True
+52.8740 	EXP 	image: autoDraw = False
+52.8740 	EXP 	image: autoDraw = False
+52.8740 	EXP 	cues: image = 'stim/centre.png'
+52.8740 	EXP 	target: ori = 180.0
+52.8740 	EXP 	target: image = 'stim/congRight.png'
+52.8740 	EXP 	cues: autoDraw = True
+52.8740 	EXP 	fixationshort: autoDraw = True
+52.9859 	EXP 	cues: autoDraw = False
+53.3687 	EXP 	target: autoDraw = True
+53.3854 	EXP 	fixationshort: autoDraw = False
+53.8984 	DATA 	Keypress: left
+53.9016 	EXP 	cues: autoDraw = False
+53.9016 	EXP 	target: autoDraw = False
+53.9016 	EXP 	fixationshort: autoDraw = False
+53.9016 	EXP 	text: text = 'Correct! Your RT is : 0.5'
+53.9016 	EXP 	text: autoDraw = True
+54.8880 	EXP 	New trial (rep=0, index=9): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+54.9011 	EXP 	text: autoDraw = False
+54.9011 	EXP 	text: autoDraw = False
+54.9011 	EXP 	image: autoDraw = True
+55.4546 	EXP 	image: autoDraw = False
+55.4546 	EXP 	image: autoDraw = False
+55.4546 	EXP 	cues: image = 'stim/blank.png'
+55.4546 	EXP 	target: ori = 180.0
+55.4546 	EXP 	target: image = 'stim/congLeft.png'
+55.4546 	EXP 	cues: autoDraw = True
+55.4546 	EXP 	fixationshort: autoDraw = True
+55.5671 	EXP 	cues: autoDraw = False
+55.9505 	EXP 	target: autoDraw = True
+55.9670 	EXP 	fixationshort: autoDraw = False
+56.5294 	DATA 	Keypress: right
+56.5326 	EXP 	cues: autoDraw = False
+56.5326 	EXP 	target: autoDraw = False
+56.5326 	EXP 	fixationshort: autoDraw = False
+56.5326 	EXP 	text: text = 'Correct! Your RT is : 0.54'
+56.5326 	EXP 	text: autoDraw = True
+57.5200 	EXP 	New trial (rep=0, index=10): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+57.5319 	EXP 	text: autoDraw = False
+57.5319 	EXP 	text: autoDraw = False
+57.5319 	EXP 	image: autoDraw = True
+57.9863 	EXP 	image: autoDraw = False
+57.9863 	EXP 	image: autoDraw = False
+57.9863 	EXP 	cues: image = 'stim/both.png'
+57.9863 	EXP 	target: ori = 180.0
+57.9863 	EXP 	target: image = 'stim/congLeft.png'
+57.9863 	EXP 	cues: autoDraw = True
+57.9863 	EXP 	fixationshort: autoDraw = True
+58.0978 	EXP 	cues: autoDraw = False
+58.4818 	EXP 	target: autoDraw = True
+58.4982 	EXP 	fixationshort: autoDraw = False
+59.0365 	DATA 	Keypress: right
+59.0396 	EXP 	cues: autoDraw = False
+59.0396 	EXP 	target: autoDraw = False
+59.0396 	EXP 	fixationshort: autoDraw = False
+59.0396 	EXP 	text: text = 'Correct! Your RT is : 0.51'
+59.0396 	EXP 	text: autoDraw = True
+60.0342 	EXP 	New trial (rep=0, index=11): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+60.0468 	EXP 	text: autoDraw = False
+60.0468 	EXP 	text: autoDraw = False
+60.0468 	EXP 	image: autoDraw = True
+60.5128 	EXP 	image: autoDraw = False
+60.5128 	EXP 	image: autoDraw = False
+60.5128 	EXP 	cues: image = 'stim/centre.png'
+60.5128 	EXP 	target: ori = 0.0
+60.5128 	EXP 	target: image = 'stim/incongLeft.png'
+60.5128 	EXP 	cues: autoDraw = True
+60.5128 	EXP 	fixationshort: autoDraw = True
+60.6129 	EXP 	cues: autoDraw = False
+60.9960 	EXP 	target: autoDraw = True
+61.0126 	EXP 	fixationshort: autoDraw = False
+61.6013 	DATA 	Keypress: left
+61.6460 	EXP 	cues: autoDraw = False
+61.6460 	EXP 	target: autoDraw = False
+61.6460 	EXP 	fixationshort: autoDraw = False
+61.6460 	EXP 	text: text = 'Correct! Your RT is : 0.6'
+61.6460 	EXP 	text: autoDraw = True
+62.6487 	EXP 	New trial (rep=0, index=12): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+62.6617 	EXP 	text: autoDraw = False
+62.6617 	EXP 	text: autoDraw = False
+62.6617 	EXP 	image: autoDraw = True
+63.0606 	EXP 	image: autoDraw = False
+63.0606 	EXP 	image: autoDraw = False
+63.0606 	EXP 	cues: image = 'stim/blank.png'
+63.0606 	EXP 	target: ori = 180.0
+63.0606 	EXP 	target: image = 'stim/congRight.png'
+63.0606 	EXP 	cues: autoDraw = True
+63.0606 	EXP 	fixationshort: autoDraw = True
+63.1611 	EXP 	cues: autoDraw = False
+63.5440 	EXP 	target: autoDraw = True
+63.5604 	EXP 	fixationshort: autoDraw = False
+64.1658 	DATA 	Keypress: left
+64.2136 	EXP 	cues: autoDraw = False
+64.2136 	EXP 	target: autoDraw = False
+64.2136 	EXP 	fixationshort: autoDraw = False
+64.2136 	EXP 	text: text = 'Correct! Your RT is : 0.62'
+64.2136 	EXP 	text: autoDraw = True
+65.2142 	EXP 	New trial (rep=0, index=13): OrderedDict([('cue', 'stim/lower.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+65.2260 	EXP 	text: autoDraw = False
+65.2260 	EXP 	text: autoDraw = False
+65.2260 	EXP 	image: autoDraw = True
+65.7849 	EXP 	image: autoDraw = False
+65.7849 	EXP 	image: autoDraw = False
+65.7849 	EXP 	cues: image = 'stim/lower.png'
+65.7849 	EXP 	target: ori = 180.0
+65.7849 	EXP 	target: image = 'stim/congRight.png'
+65.7849 	EXP 	cues: autoDraw = True
+65.7849 	EXP 	fixationshort: autoDraw = True
+65.8920 	EXP 	cues: autoDraw = False
+66.2750 	EXP 	target: autoDraw = True
+66.2917 	EXP 	fixationshort: autoDraw = False
+66.7663 	DATA 	Keypress: left
+66.7693 	EXP 	cues: autoDraw = False
+66.7693 	EXP 	target: autoDraw = False
+66.7693 	EXP 	fixationshort: autoDraw = False
+66.7693 	EXP 	text: text = 'Correct! Your RT is : 0.47'
+66.7693 	EXP 	text: autoDraw = True
+67.7608 	EXP 	New trial (rep=0, index=14): OrderedDict([('cue', 'stim/upper.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+67.7734 	EXP 	text: autoDraw = False
+67.7734 	EXP 	text: autoDraw = False
+67.7734 	EXP 	image: autoDraw = True
+68.2494 	EXP 	image: autoDraw = False
+68.2494 	EXP 	image: autoDraw = False
+68.2494 	EXP 	cues: image = 'stim/upper.png'
+68.2494 	EXP 	target: ori = 0.0
+68.2494 	EXP 	target: image = 'stim/congRight.png'
+68.2494 	EXP 	cues: autoDraw = True
+68.2494 	EXP 	fixationshort: autoDraw = True
+68.3567 	EXP 	cues: autoDraw = False
+68.7400 	EXP 	target: autoDraw = True
+68.7562 	EXP 	fixationshort: autoDraw = False
+69.3351 	DATA 	Keypress: right
+69.3383 	EXP 	cues: autoDraw = False
+69.3383 	EXP 	target: autoDraw = False
+69.3383 	EXP 	fixationshort: autoDraw = False
+69.3383 	EXP 	text: text = 'Correct! Your RT is : 0.56'
+69.3383 	EXP 	text: autoDraw = True
+70.3238 	EXP 	New trial (rep=0, index=15): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+70.3377 	EXP 	text: autoDraw = False
+70.3377 	EXP 	text: autoDraw = False
+70.3377 	EXP 	image: autoDraw = True
+70.8422 	EXP 	image: autoDraw = False
+70.8422 	EXP 	image: autoDraw = False
+70.8422 	EXP 	cues: image = 'stim/centre.png'
+70.8422 	EXP 	target: ori = 0.0
+70.8422 	EXP 	target: image = 'stim/congRight.png'
+70.8422 	EXP 	cues: autoDraw = True
+70.8422 	EXP 	fixationshort: autoDraw = True
+70.9546 	EXP 	cues: autoDraw = False
+71.3376 	EXP 	target: autoDraw = True
+71.3540 	EXP 	fixationshort: autoDraw = False
+72.1170 	DATA 	Keypress: right
+72.1202 	EXP 	cues: autoDraw = False
+72.1202 	EXP 	target: autoDraw = False
+72.1202 	EXP 	fixationshort: autoDraw = False
+72.1202 	EXP 	text: text = 'Correct! Your RT is : 0.75'
+72.1202 	EXP 	text: autoDraw = True
+73.1069 	EXP 	New trial (rep=0, index=16): OrderedDict([('cue', 'stim/lower.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+73.1194 	EXP 	text: autoDraw = False
+73.1194 	EXP 	text: autoDraw = False
+73.1194 	EXP 	image: autoDraw = True
+73.6240 	EXP 	image: autoDraw = False
+73.6240 	EXP 	image: autoDraw = False
+73.6240 	EXP 	cues: image = 'stim/lower.png'
+73.6240 	EXP 	target: ori = 180.0
+73.6240 	EXP 	target: image = 'stim/incongLeft.png'
+73.6240 	EXP 	cues: autoDraw = True
+73.6240 	EXP 	fixationshort: autoDraw = True
+73.7356 	EXP 	cues: autoDraw = False
+74.1185 	EXP 	target: autoDraw = True
+74.1349 	EXP 	fixationshort: autoDraw = False
+74.5739 	DATA 	Keypress: left
+74.6118 	EXP 	cues: autoDraw = False
+74.6118 	EXP 	target: autoDraw = False
+74.6118 	EXP 	fixationshort: autoDraw = False
+74.6118 	EXP 	text: text = 'Incorrect!'
+74.6118 	EXP 	text: autoDraw = True
+75.6049 	EXP 	New trial (rep=0, index=17): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+75.6173 	EXP 	text: autoDraw = False
+75.6173 	EXP 	text: autoDraw = False
+75.6173 	EXP 	image: autoDraw = True
+76.1733 	EXP 	image: autoDraw = False
+76.1733 	EXP 	image: autoDraw = False
+76.1733 	EXP 	cues: image = 'stim/blank.png'
+76.1733 	EXP 	target: ori = 0.0
+76.1733 	EXP 	target: image = 'stim/congLeft.png'
+76.1733 	EXP 	cues: autoDraw = True
+76.1733 	EXP 	fixationshort: autoDraw = True
+76.2829 	EXP 	cues: autoDraw = False
+76.6501 	EXP 	target: autoDraw = True
+76.6830 	EXP 	fixationshort: autoDraw = False
+77.4273 	DATA 	Keypress: right
+77.4319 	EXP 	cues: autoDraw = False
+77.4319 	EXP 	target: autoDraw = False
+77.4319 	EXP 	fixationshort: autoDraw = False
+77.4319 	EXP 	text: text = 'Incorrect!'
+77.4319 	EXP 	text: autoDraw = True
+78.4191 	EXP 	New trial (rep=0, index=18): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+78.4320 	EXP 	text: autoDraw = False
+78.4320 	EXP 	text: autoDraw = False
+78.4320 	EXP 	image: autoDraw = True
+78.9837 	EXP 	image: autoDraw = False
+78.9837 	EXP 	image: autoDraw = False
+78.9837 	EXP 	cues: image = 'stim/both.png'
+78.9837 	EXP 	target: ori = 180.0
+78.9837 	EXP 	target: image = 'stim/incongLeft.png'
+78.9837 	EXP 	cues: autoDraw = True
+78.9837 	EXP 	fixationshort: autoDraw = True
+79.0976 	EXP 	cues: autoDraw = False
+79.4810 	EXP 	target: autoDraw = True
+79.4974 	EXP 	fixationshort: autoDraw = False
+80.3235 	DATA 	Keypress: right
+80.3264 	EXP 	cues: autoDraw = False
+80.3264 	EXP 	target: autoDraw = False
+80.3264 	EXP 	fixationshort: autoDraw = False
+80.3264 	EXP 	text: text = 'Correct! Your RT is : 0.81'
+80.3264 	EXP 	text: autoDraw = True
+81.3170 	EXP 	New trial (rep=0, index=19): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+81.3295 	EXP 	text: autoDraw = False
+81.3295 	EXP 	text: autoDraw = False
+81.3295 	EXP 	image: autoDraw = True
+81.8815 	EXP 	image: autoDraw = False
+81.8815 	EXP 	image: autoDraw = False
+81.8815 	EXP 	cues: image = 'stim/both.png'
+81.8815 	EXP 	target: ori = 0.0
+81.8815 	EXP 	target: image = 'stim/incongLeft.png'
+81.8815 	EXP 	cues: autoDraw = True
+81.8815 	EXP 	fixationshort: autoDraw = True
+81.9952 	EXP 	cues: autoDraw = False
+82.3784 	EXP 	target: autoDraw = True
+82.3950 	EXP 	fixationshort: autoDraw = False
+83.0062 	DATA 	Keypress: left
+83.0093 	EXP 	cues: autoDraw = False
+83.0093 	EXP 	target: autoDraw = False
+83.0093 	EXP 	fixationshort: autoDraw = False
+83.0093 	EXP 	text: text = 'Correct! Your RT is : 0.6'
+83.0093 	EXP 	text: autoDraw = True
+83.9973 	EXP 	New trial (rep=0, index=20): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+84.0103 	EXP 	text: autoDraw = False
+84.0103 	EXP 	text: autoDraw = False
+84.0103 	EXP 	image: autoDraw = True
+84.4154 	EXP 	image: autoDraw = False
+84.4154 	EXP 	image: autoDraw = False
+84.4154 	EXP 	cues: image = 'stim/both.png'
+84.4154 	EXP 	target: ori = 0.0
+84.4154 	EXP 	target: image = 'stim/congLeft.png'
+84.4154 	EXP 	cues: autoDraw = True
+84.4154 	EXP 	fixationshort: autoDraw = True
+84.5265 	EXP 	cues: autoDraw = False
+84.9095 	EXP 	target: autoDraw = True
+84.9260 	EXP 	fixationshort: autoDraw = False
+85.4543 	DATA 	Keypress: left
+85.4575 	EXP 	cues: autoDraw = False
+85.4575 	EXP 	target: autoDraw = False
+85.4575 	EXP 	fixationshort: autoDraw = False
+85.4575 	EXP 	text: text = 'Correct! Your RT is : 0.51'
+85.4575 	EXP 	text: autoDraw = True
+86.4460 	EXP 	New trial (rep=0, index=21): OrderedDict([('cue', 'stim/upper.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+86.4582 	EXP 	text: autoDraw = False
+86.4582 	EXP 	text: autoDraw = False
+86.4582 	EXP 	image: autoDraw = True
+87.0099 	EXP 	image: autoDraw = False
+87.0099 	EXP 	image: autoDraw = False
+87.0099 	EXP 	cues: image = 'stim/upper.png'
+87.0099 	EXP 	target: ori = 0.0
+87.0099 	EXP 	target: image = 'stim/congLeft.png'
+87.0099 	EXP 	cues: autoDraw = True
+87.0099 	EXP 	fixationshort: autoDraw = True
+87.1244 	EXP 	cues: autoDraw = False
+87.5076 	EXP 	target: autoDraw = True
+87.5242 	EXP 	fixationshort: autoDraw = False
+88.0790 	DATA 	Keypress: left
+88.0828 	EXP 	cues: autoDraw = False
+88.0828 	EXP 	target: autoDraw = False
+88.0828 	EXP 	fixationshort: autoDraw = False
+88.0828 	EXP 	text: text = 'Correct! Your RT is : 0.53'
+88.0828 	EXP 	text: autoDraw = True
+89.0769 	EXP 	New trial (rep=0, index=22): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+89.0895 	EXP 	text: autoDraw = False
+89.0895 	EXP 	text: autoDraw = False
+89.0895 	EXP 	image: autoDraw = True
+89.5930 	EXP 	image: autoDraw = False
+89.5930 	EXP 	image: autoDraw = False
+89.5930 	EXP 	cues: image = 'stim/both.png'
+89.5930 	EXP 	target: ori = 180.0
+89.5930 	EXP 	target: image = 'stim/congRight.png'
+89.5930 	EXP 	cues: autoDraw = True
+89.5930 	EXP 	fixationshort: autoDraw = True
+89.7051 	EXP 	cues: autoDraw = False
+90.0889 	EXP 	target: autoDraw = True
+90.1052 	EXP 	fixationshort: autoDraw = False
+90.6842 	DATA 	Keypress: left
+90.6872 	EXP 	cues: autoDraw = False
+90.6872 	EXP 	target: autoDraw = False
+90.6872 	EXP 	fixationshort: autoDraw = False
+90.6872 	EXP 	text: text = 'Correct! Your RT is : 0.56'
+90.6872 	EXP 	text: autoDraw = True
+91.6745 	EXP 	New trial (rep=0, index=23): OrderedDict([('cue', 'stim/upper.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+91.6876 	EXP 	text: autoDraw = False
+91.6876 	EXP 	text: autoDraw = False
+91.6876 	EXP 	image: autoDraw = True
+92.2034 	EXP 	image: autoDraw = False
+92.2034 	EXP 	image: autoDraw = False
+92.2034 	EXP 	cues: image = 'stim/upper.png'
+92.2034 	EXP 	target: ori = 0.0
+92.2034 	EXP 	target: image = 'stim/incongLeft.png'
+92.2034 	EXP 	cues: autoDraw = True
+92.2034 	EXP 	fixationshort: autoDraw = True
+92.3035 	EXP 	cues: autoDraw = False
+92.6867 	EXP 	target: autoDraw = True
+92.7031 	EXP 	fixationshort: autoDraw = False
+93.3070 	DATA 	Keypress: left
+93.3094 	EXP 	cues: autoDraw = False
+93.3094 	EXP 	target: autoDraw = False
+93.3094 	EXP 	fixationshort: autoDraw = False
+93.3094 	EXP 	text: text = 'Correct! Your RT is : 0.59'
+93.3094 	EXP 	text: autoDraw = True
+94.3190 	EXP 	text: autoDraw = False
+94.3190 	EXP 	text: autoDraw = False
+94.3190 	EXP 	mainInst: autoDraw = True
+101.5022 	EXP 	Created sequence: random, trialTypes=1, nReps=2, seed=None
+101.5030 	EXP 	New trial (rep=0, index=0): None
+101.5396 	EXP 	Imported cond.xlsx as conditions, 48 conditions, 4 params
+101.5411 	EXP 	Created sequence: random, trialTypes=48, nReps=2, seed=None
+101.5422 	EXP 	New trial (rep=0, index=0): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/incongRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+101.5471 	DATA 	Keypress: space
+101.5505 	EXP 	mainInst: autoDraw = False
+101.5505 	EXP 	image: autoDraw = True
+102.1283 	EXP 	image: autoDraw = False
+102.1283 	EXP 	image: autoDraw = False
+102.1283 	EXP 	cues: image = 'stim/blank.png'
+102.1283 	EXP 	target: ori = 180.0
+102.1283 	EXP 	target: image = 'stim/incongRight.png'
+102.1283 	EXP 	cues: autoDraw = True
+102.1283 	EXP 	fixationshort: autoDraw = True
+102.2290 	EXP 	cues: autoDraw = False
+102.6284 	EXP 	target: autoDraw = True
+102.6284 	EXP 	fixationshort: autoDraw = False
+103.3330 	DATA 	Keypress: left
+103.3550 	EXP 	New trial (rep=0, index=1): OrderedDict([('cue', 'stim/upper.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+103.3612 	EXP 	cues: autoDraw = False
+103.3612 	EXP 	target: autoDraw = False
+103.3612 	EXP 	fixationshort: autoDraw = False
+103.3612 	EXP 	image: autoDraw = True
+103.7641 	EXP 	image: autoDraw = False
+103.7641 	EXP 	image: autoDraw = False
+103.7641 	EXP 	cues: image = 'stim/upper.png'
+103.7641 	EXP 	target: ori = 0.0
+103.7641 	EXP 	target: image = 'stim/congRight.png'
+103.7641 	EXP 	cues: autoDraw = True
+103.7641 	EXP 	fixationshort: autoDraw = True
+103.8776 	EXP 	cues: autoDraw = False
+104.2605 	EXP 	target: autoDraw = True
+104.2771 	EXP 	fixationshort: autoDraw = False
+104.7529 	EXP 	New trial (rep=0, index=2): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+104.7570 	DATA 	Keypress: right
+104.7602 	EXP 	cues: autoDraw = False
+104.7602 	EXP 	target: autoDraw = False
+104.7602 	EXP 	fixationshort: autoDraw = False
+104.7602 	EXP 	image: autoDraw = True
+105.2759 	EXP 	image: autoDraw = False
+105.2759 	EXP 	image: autoDraw = False
+105.2759 	EXP 	cues: image = 'stim/centre.png'
+105.2759 	EXP 	target: ori = 180.0
+105.2759 	EXP 	target: image = 'stim/congRight.png'
+105.2759 	EXP 	cues: autoDraw = True
+105.2759 	EXP 	fixationshort: autoDraw = True
+105.3759 	EXP 	cues: autoDraw = False
+105.7595 	EXP 	target: autoDraw = True
+105.7758 	EXP 	fixationshort: autoDraw = False
+106.2333 	EXP 	New trial (rep=0, index=3): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+106.2372 	DATA 	Keypress: left
+106.2420 	EXP 	cues: autoDraw = False
+106.2420 	EXP 	target: autoDraw = False
+106.2420 	EXP 	fixationshort: autoDraw = False
+106.2420 	EXP 	image: autoDraw = True
+106.6964 	EXP 	image: autoDraw = False
+106.6964 	EXP 	image: autoDraw = False
+106.6964 	EXP 	cues: image = 'stim/blank.png'
+106.6964 	EXP 	target: ori = 180.0
+106.6964 	EXP 	target: image = 'stim/incongLeft.png'
+106.6964 	EXP 	cues: autoDraw = True
+106.6964 	EXP 	fixationshort: autoDraw = True
+106.8083 	EXP 	cues: autoDraw = False
+107.1918 	EXP 	target: autoDraw = True
+107.2081 	EXP 	fixationshort: autoDraw = False
+107.8156 	EXP 	New trial (rep=0, index=4): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/neutralLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+107.8199 	DATA 	Keypress: right
+107.8239 	EXP 	cues: autoDraw = False
+107.8239 	EXP 	target: autoDraw = False
+107.8239 	EXP 	fixationshort: autoDraw = False
+107.8239 	EXP 	image: autoDraw = True
+108.3876 	EXP 	image: autoDraw = False
+108.3876 	EXP 	image: autoDraw = False
+108.3876 	EXP 	cues: image = 'stim/blank.png'
+108.3876 	EXP 	target: ori = 0.0
+108.3876 	EXP 	target: image = 'stim/neutralLeft.png'
+108.3876 	EXP 	cues: autoDraw = True
+108.3876 	EXP 	fixationshort: autoDraw = True
+108.4902 	EXP 	cues: autoDraw = False
+108.8730 	EXP 	target: autoDraw = True
+108.8894 	EXP 	fixationshort: autoDraw = False
+109.3653 	EXP 	New trial (rep=0, index=5): OrderedDict([('cue', 'stim/lower.png'), ('tar', 'stim/neutralLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+109.3692 	DATA 	Keypress: left
+109.3728 	EXP 	cues: autoDraw = False
+109.3728 	EXP 	target: autoDraw = False
+109.3728 	EXP 	fixationshort: autoDraw = False
+109.3728 	EXP 	image: autoDraw = True
+109.7805 	EXP 	image: autoDraw = False
+109.7805 	EXP 	image: autoDraw = False
+109.7805 	EXP 	cues: image = 'stim/lower.png'
+109.7805 	EXP 	target: ori = 180.0
+109.7805 	EXP 	target: image = 'stim/neutralLeft.png'
+109.7805 	EXP 	cues: autoDraw = True
+109.7805 	EXP 	fixationshort: autoDraw = True
+109.8894 	EXP 	cues: autoDraw = False
+110.2722 	EXP 	target: autoDraw = True
+110.2889 	EXP 	fixationshort: autoDraw = False
+110.7608 	DATA 	Keypress: right
+110.7841 	EXP 	New trial (rep=0, index=6): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+110.7901 	EXP 	cues: autoDraw = False
+110.7901 	EXP 	target: autoDraw = False
+110.7901 	EXP 	fixationshort: autoDraw = False
+110.7901 	EXP 	image: autoDraw = True
+111.3043 	EXP 	image: autoDraw = False
+111.3043 	EXP 	image: autoDraw = False
+111.3043 	EXP 	cues: image = 'stim/both.png'
+111.3043 	EXP 	target: ori = 180.0
+111.3043 	EXP 	target: image = 'stim/congLeft.png'
+111.3043 	EXP 	cues: autoDraw = True
+111.3043 	EXP 	fixationshort: autoDraw = True
+111.4044 	EXP 	cues: autoDraw = False
+111.8043 	EXP 	target: autoDraw = True
+111.8043 	EXP 	fixationshort: autoDraw = False
+112.3304 	EXP 	New trial (rep=0, index=7): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+112.3343 	DATA 	Keypress: right
+112.3376 	EXP 	cues: autoDraw = False
+112.3376 	EXP 	target: autoDraw = False
+112.3376 	EXP 	fixationshort: autoDraw = False
+112.3376 	EXP 	image: autoDraw = True
+112.8411 	EXP 	image: autoDraw = False
+112.8411 	EXP 	image: autoDraw = False
+112.8411 	EXP 	cues: image = 'stim/centre.png'
+112.8411 	EXP 	target: ori = 0.0
+112.8411 	EXP 	target: image = 'stim/congRight.png'
+112.8411 	EXP 	cues: autoDraw = True
+112.8411 	EXP 	fixationshort: autoDraw = True
+112.9532 	EXP 	cues: autoDraw = False
+113.3364 	EXP 	target: autoDraw = True
+113.3528 	EXP 	fixationshort: autoDraw = False
+113.8622 	EXP 	New trial (rep=0, index=8): OrderedDict([('cue', 'stim/upper.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+113.8666 	DATA 	Keypress: right
+113.8697 	EXP 	cues: autoDraw = False
+113.8697 	EXP 	target: autoDraw = False
+113.8697 	EXP 	fixationshort: autoDraw = False
+113.8697 	EXP 	image: autoDraw = True
+114.2738 	EXP 	image: autoDraw = False
+114.2738 	EXP 	image: autoDraw = False
+114.2738 	EXP 	cues: image = 'stim/upper.png'
+114.2738 	EXP 	target: ori = 0.0
+114.2738 	EXP 	target: image = 'stim/congLeft.png'
+114.2738 	EXP 	cues: autoDraw = True
+114.2738 	EXP 	fixationshort: autoDraw = True
+114.3854 	EXP 	cues: autoDraw = False
+114.7684 	EXP 	target: autoDraw = True
+114.7849 	EXP 	fixationshort: autoDraw = False
+115.3104 	EXP 	New trial (rep=0, index=9): OrderedDict([('cue', 'stim/lower.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+115.3144 	DATA 	Keypress: left
+115.3179 	EXP 	cues: autoDraw = False
+115.3179 	EXP 	target: autoDraw = False
+115.3179 	EXP 	fixationshort: autoDraw = False
+115.3179 	EXP 	image: autoDraw = True
+115.7223 	EXP 	image: autoDraw = False
+115.7223 	EXP 	image: autoDraw = False
+115.7223 	EXP 	cues: image = 'stim/lower.png'
+115.7223 	EXP 	target: ori = 180.0
+115.7223 	EXP 	target: image = 'stim/incongLeft.png'
+115.7223 	EXP 	cues: autoDraw = True
+115.7223 	EXP 	fixationshort: autoDraw = True
+115.8341 	EXP 	cues: autoDraw = False
+116.2176 	EXP 	target: autoDraw = True
+116.2339 	EXP 	fixationshort: autoDraw = False
+116.8261 	EXP 	New trial (rep=0, index=10): OrderedDict([('cue', 'stim/upper.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+116.8314 	DATA 	Keypress: right
+116.8347 	EXP 	cues: autoDraw = False
+116.8347 	EXP 	target: autoDraw = False
+116.8347 	EXP 	fixationshort: autoDraw = False
+116.8347 	EXP 	image: autoDraw = True
+117.2494 	EXP 	image: autoDraw = False
+117.2494 	EXP 	image: autoDraw = False
+117.2494 	EXP 	cues: image = 'stim/upper.png'
+117.2494 	EXP 	target: ori = 0.0
+117.2494 	EXP 	target: image = 'stim/incongLeft.png'
+117.2494 	EXP 	cues: autoDraw = True
+117.2494 	EXP 	fixationshort: autoDraw = True
+117.3493 	EXP 	cues: autoDraw = False
+117.7328 	EXP 	target: autoDraw = True
+117.7491 	EXP 	fixationshort: autoDraw = False
+118.2912 	EXP 	New trial (rep=0, index=11): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+118.2957 	DATA 	Keypress: left
+118.2989 	EXP 	cues: autoDraw = False
+118.2989 	EXP 	target: autoDraw = False
+118.2989 	EXP 	fixationshort: autoDraw = False
+118.2989 	EXP 	image: autoDraw = True
+118.7031 	EXP 	image: autoDraw = False
+118.7031 	EXP 	image: autoDraw = False
+118.7031 	EXP 	cues: image = 'stim/centre.png'
+118.7031 	EXP 	target: ori = 0.0
+118.7031 	EXP 	target: image = 'stim/incongLeft.png'
+118.7031 	EXP 	cues: autoDraw = True
+118.7031 	EXP 	fixationshort: autoDraw = True
+118.8150 	EXP 	cues: autoDraw = False
+119.1981 	EXP 	target: autoDraw = True
+119.2147 	EXP 	fixationshort: autoDraw = False
+119.6704 	EXP 	New trial (rep=0, index=12): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/incongRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+119.6736 	DATA 	Keypress: left
+119.6816 	EXP 	cues: autoDraw = False
+119.6816 	EXP 	target: autoDraw = False
+119.6816 	EXP 	fixationshort: autoDraw = False
+119.6816 	EXP 	image: autoDraw = True
+120.1857 	EXP 	image: autoDraw = False
+120.1857 	EXP 	image: autoDraw = False
+120.1857 	EXP 	cues: image = 'stim/centre.png'
+120.1857 	EXP 	target: ori = 180.0
+120.1857 	EXP 	target: image = 'stim/incongRight.png'
+120.1857 	EXP 	cues: autoDraw = True
+120.1857 	EXP 	fixationshort: autoDraw = True
+120.2974 	EXP 	cues: autoDraw = False
+120.6805 	EXP 	target: autoDraw = True
+120.6968 	EXP 	fixationshort: autoDraw = False
+121.1865 	DATA 	Keypress: left
+121.2059 	EXP 	New trial (rep=0, index=13): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/neutralLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+121.2130 	EXP 	cues: autoDraw = False
+121.2130 	EXP 	target: autoDraw = False
+121.2130 	EXP 	fixationshort: autoDraw = False
+121.2130 	EXP 	image: autoDraw = True
+121.6673 	EXP 	image: autoDraw = False
+121.6673 	EXP 	image: autoDraw = False
+121.6673 	EXP 	cues: image = 'stim/blank.png'
+121.6673 	EXP 	target: ori = 180.0
+121.6673 	EXP 	target: image = 'stim/neutralLeft.png'
+121.6673 	EXP 	cues: autoDraw = True
+121.6673 	EXP 	fixationshort: autoDraw = True
+121.7795 	EXP 	cues: autoDraw = False
+122.1624 	EXP 	target: autoDraw = True
+122.1788 	EXP 	fixationshort: autoDraw = False
+122.6545 	EXP 	New trial (rep=0, index=14): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/neutralRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+122.6578 	DATA 	Keypress: right
+122.6617 	EXP 	cues: autoDraw = False
+122.6617 	EXP 	target: autoDraw = False
+122.6617 	EXP 	fixationshort: autoDraw = False
+122.6617 	EXP 	image: autoDraw = True
+123.1745 	EXP 	image: autoDraw = False
+123.1745 	EXP 	image: autoDraw = False
+123.1745 	EXP 	cues: image = 'stim/both.png'
+123.1745 	EXP 	target: ori = 180.0
+123.1745 	EXP 	target: image = 'stim/neutralRight.png'
+123.1745 	EXP 	cues: autoDraw = True
+123.1745 	EXP 	fixationshort: autoDraw = True
+123.2778 	EXP 	cues: autoDraw = False
+123.6617 	EXP 	target: autoDraw = True
+123.6777 	EXP 	fixationshort: autoDraw = False
+124.1256 	EXP 	New trial (rep=0, index=15): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/neutralLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+124.1312 	DATA 	Keypress: left
+124.1346 	EXP 	cues: autoDraw = False
+124.1346 	EXP 	target: autoDraw = False
+124.1346 	EXP 	fixationshort: autoDraw = False
+124.1346 	EXP 	image: autoDraw = True
+124.6982 	EXP 	image: autoDraw = False
+124.6982 	EXP 	image: autoDraw = False
+124.6982 	EXP 	cues: image = 'stim/centre.png'
+124.6982 	EXP 	target: ori = 180.0
+124.6982 	EXP 	target: image = 'stim/neutralLeft.png'
+124.6982 	EXP 	cues: autoDraw = True
+124.6982 	EXP 	fixationshort: autoDraw = True
+124.8103 	EXP 	cues: autoDraw = False
+125.1933 	EXP 	target: autoDraw = True
+125.2101 	EXP 	fixationshort: autoDraw = False
+125.6192 	EXP 	New trial (rep=0, index=16): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/incongRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+125.6237 	DATA 	Keypress: right
+125.6281 	EXP 	cues: autoDraw = False
+125.6281 	EXP 	target: autoDraw = False
+125.6281 	EXP 	fixationshort: autoDraw = False
+125.6281 	EXP 	image: autoDraw = True
+126.1976 	EXP 	image: autoDraw = False
+126.1976 	EXP 	image: autoDraw = False
+126.1976 	EXP 	cues: image = 'stim/blank.png'
+126.1976 	EXP 	target: ori = 0.0
+126.1976 	EXP 	target: image = 'stim/incongRight.png'
+126.1976 	EXP 	cues: autoDraw = True
+126.1976 	EXP 	fixationshort: autoDraw = True
+126.3091 	EXP 	cues: autoDraw = False
+126.6921 	EXP 	target: autoDraw = True
+126.7087 	EXP 	fixationshort: autoDraw = False
+127.6130 	DATA 	Keypress: right
+127.6340 	EXP 	New trial (rep=0, index=17): OrderedDict([('cue', 'stim/lower.png'), ('tar', 'stim/neutralRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+127.6412 	EXP 	cues: autoDraw = False
+127.6412 	EXP 	target: autoDraw = False
+127.6412 	EXP 	fixationshort: autoDraw = False
+127.6412 	EXP 	image: autoDraw = True
+128.0406 	EXP 	image: autoDraw = False
+128.0406 	EXP 	image: autoDraw = False
+128.0406 	EXP 	cues: image = 'stim/lower.png'
+128.0406 	EXP 	target: ori = 180.0
+128.0406 	EXP 	target: image = 'stim/neutralRight.png'
+128.0406 	EXP 	cues: autoDraw = True
+128.0406 	EXP 	fixationshort: autoDraw = True
+128.1411 	EXP 	cues: autoDraw = False
+128.5238 	EXP 	target: autoDraw = True
+128.5404 	EXP 	fixationshort: autoDraw = False
+128.9629 	DATA 	Keypress: left
+128.9833 	EXP 	New trial (rep=0, index=18): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+128.9900 	EXP 	cues: autoDraw = False
+128.9900 	EXP 	target: autoDraw = False
+128.9900 	EXP 	fixationshort: autoDraw = False
+128.9900 	EXP 	image: autoDraw = True
+129.3895 	EXP 	image: autoDraw = False
+129.3895 	EXP 	image: autoDraw = False
+129.3895 	EXP 	cues: image = 'stim/both.png'
+129.3895 	EXP 	target: ori = 180.0
+129.3895 	EXP 	target: image = 'stim/congRight.png'
+129.3895 	EXP 	cues: autoDraw = True
+129.3895 	EXP 	fixationshort: autoDraw = True
+129.4897 	EXP 	cues: autoDraw = False
+129.8728 	EXP 	target: autoDraw = True
+129.8896 	EXP 	fixationshort: autoDraw = False
+130.2978 	EXP 	New trial (rep=0, index=19): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+130.3024 	DATA 	Keypress: left
+130.3056 	EXP 	cues: autoDraw = False
+130.3056 	EXP 	target: autoDraw = False
+130.3056 	EXP 	fixationshort: autoDraw = False
+130.3056 	EXP 	image: autoDraw = True
+130.7594 	EXP 	image: autoDraw = False
+130.7594 	EXP 	image: autoDraw = False
+130.7594 	EXP 	cues: image = 'stim/blank.png'
+130.7594 	EXP 	target: ori = 0.0
+130.7594 	EXP 	target: image = 'stim/congLeft.png'
+130.7594 	EXP 	cues: autoDraw = True
+130.7594 	EXP 	fixationshort: autoDraw = True
+130.8719 	EXP 	cues: autoDraw = False
+131.2553 	EXP 	target: autoDraw = True
+131.2718 	EXP 	fixationshort: autoDraw = False
+131.6935 	EXP 	New trial (rep=0, index=20): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/neutralLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+131.6967 	DATA 	Keypress: right
+131.7040 	EXP 	cues: autoDraw = False
+131.7040 	EXP 	target: autoDraw = False
+131.7040 	EXP 	fixationshort: autoDraw = False
+131.7040 	EXP 	image: autoDraw = True
+132.1592 	EXP 	image: autoDraw = False
+132.1592 	EXP 	image: autoDraw = False
+132.1592 	EXP 	cues: image = 'stim/centre.png'
+132.1592 	EXP 	target: ori = 0.0
+132.1592 	EXP 	target: image = 'stim/neutralLeft.png'
+132.1592 	EXP 	cues: autoDraw = True
+132.1592 	EXP 	fixationshort: autoDraw = True
+132.2709 	EXP 	cues: autoDraw = False
+132.6539 	EXP 	target: autoDraw = True
+132.6704 	EXP 	fixationshort: autoDraw = False
+133.1093 	DATA 	Keypress: left
+133.1295 	EXP 	New trial (rep=0, index=21): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/neutralLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+133.1366 	EXP 	cues: autoDraw = False
+133.1366 	EXP 	target: autoDraw = False
+133.1366 	EXP 	fixationshort: autoDraw = False
+133.1366 	EXP 	image: autoDraw = True
+133.5413 	EXP 	image: autoDraw = False
+133.5413 	EXP 	image: autoDraw = False
+133.5413 	EXP 	cues: image = 'stim/both.png'
+133.5413 	EXP 	target: ori = 180.0
+133.5413 	EXP 	target: image = 'stim/neutralLeft.png'
+133.5413 	EXP 	cues: autoDraw = True
+133.5413 	EXP 	fixationshort: autoDraw = True
+133.6529 	EXP 	cues: autoDraw = False
+134.0360 	EXP 	target: autoDraw = True
+134.0521 	EXP 	fixationshort: autoDraw = False
+134.4413 	DATA 	Keypress: right
+135.1655 	EXP 	New trial (rep=0, index=22): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+135.1726 	DATA 	Keypress: right
+135.1760 	EXP 	cues: autoDraw = False
+135.1760 	EXP 	target: autoDraw = False
+135.1760 	EXP 	fixationshort: autoDraw = False
+135.1760 	EXP 	image: autoDraw = True
+135.7392 	EXP 	image: autoDraw = False
+135.7392 	EXP 	image: autoDraw = False
+135.7392 	EXP 	cues: image = 'stim/blank.png'
+135.7392 	EXP 	target: ori = 180.0
+135.7392 	EXP 	target: image = 'stim/congLeft.png'
+135.7392 	EXP 	cues: autoDraw = True
+135.7392 	EXP 	fixationshort: autoDraw = True
+135.8515 	EXP 	cues: autoDraw = False
+136.2346 	EXP 	target: autoDraw = True
+136.2508 	EXP 	fixationshort: autoDraw = False
+136.7599 	EXP 	New trial (rep=0, index=23): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+136.7645 	DATA 	Keypress: right
+136.7679 	EXP 	cues: autoDraw = False
+136.7679 	EXP 	target: autoDraw = False
+136.7679 	EXP 	fixationshort: autoDraw = False
+136.7679 	EXP 	image: autoDraw = True
+137.3373 	EXP 	image: autoDraw = False
+137.3373 	EXP 	image: autoDraw = False
+137.3373 	EXP 	cues: image = 'stim/centre.png'
+137.3373 	EXP 	target: ori = 180.0
+137.3373 	EXP 	target: image = 'stim/incongLeft.png'
+137.3373 	EXP 	cues: autoDraw = True
+137.3373 	EXP 	fixationshort: autoDraw = True
+137.4499 	EXP 	cues: autoDraw = False
+137.8329 	EXP 	target: autoDraw = True
+137.8492 	EXP 	fixationshort: autoDraw = False
+138.3741 	EXP 	New trial (rep=0, index=24): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+138.3782 	DATA 	Keypress: right
+138.3823 	EXP 	cues: autoDraw = False
+138.3823 	EXP 	target: autoDraw = False
+138.3823 	EXP 	fixationshort: autoDraw = False
+138.3823 	EXP 	image: autoDraw = True
+138.8387 	EXP 	image: autoDraw = False
+138.8387 	EXP 	image: autoDraw = False
+138.8387 	EXP 	cues: image = 'stim/blank.png'
+138.8387 	EXP 	target: ori = 0.0
+138.8387 	EXP 	target: image = 'stim/congRight.png'
+138.8387 	EXP 	cues: autoDraw = True
+138.8387 	EXP 	fixationshort: autoDraw = True
+138.9483 	EXP 	cues: autoDraw = False
+139.3153 	EXP 	target: autoDraw = True
+139.3480 	EXP 	fixationshort: autoDraw = False
+139.8573 	EXP 	New trial (rep=0, index=25): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+139.8625 	DATA 	Keypress: right
+139.8657 	EXP 	cues: autoDraw = False
+139.8657 	EXP 	target: autoDraw = False
+139.8657 	EXP 	fixationshort: autoDraw = False
+139.8657 	EXP 	image: autoDraw = True
+140.3355 	EXP 	image: autoDraw = False
+140.3355 	EXP 	image: autoDraw = False
+140.3355 	EXP 	cues: image = 'stim/both.png'
+140.3355 	EXP 	target: ori = 0.0
+140.3355 	EXP 	target: image = 'stim/incongLeft.png'
+140.3355 	EXP 	cues: autoDraw = True
+140.3355 	EXP 	fixationshort: autoDraw = True
+140.4472 	EXP 	cues: autoDraw = False
+140.8306 	EXP 	target: autoDraw = True
+140.8471 	EXP 	fixationshort: autoDraw = False
+141.3179 	DATA 	Keypress: right
+141.3355 	EXP 	New trial (rep=0, index=26): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+141.3461 	EXP 	cues: autoDraw = False
+141.3461 	EXP 	target: autoDraw = False
+141.3461 	EXP 	fixationshort: autoDraw = False
+141.3461 	EXP 	image: autoDraw = True
+141.8009 	EXP 	image: autoDraw = False
+141.8009 	EXP 	image: autoDraw = False
+141.8009 	EXP 	cues: image = 'stim/both.png'
+141.8009 	EXP 	target: ori = 0.0
+141.8009 	EXP 	target: image = 'stim/congLeft.png'
+141.8009 	EXP 	cues: autoDraw = True
+141.8009 	EXP 	fixationshort: autoDraw = True
+141.9126 	EXP 	cues: autoDraw = False
+142.2959 	EXP 	target: autoDraw = True
+142.3124 	EXP 	fixationshort: autoDraw = False
+142.8390 	EXP 	New trial (rep=0, index=27): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/neutralRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+142.8439 	DATA 	Keypress: left
+142.8471 	EXP 	cues: autoDraw = False
+142.8471 	EXP 	target: autoDraw = False
+142.8471 	EXP 	fixationshort: autoDraw = False
+142.8471 	EXP 	image: autoDraw = True
+143.2644 	EXP 	image: autoDraw = False
+143.2644 	EXP 	image: autoDraw = False
+143.2644 	EXP 	cues: image = 'stim/both.png'
+143.2644 	EXP 	target: ori = 0.0
+143.2644 	EXP 	target: image = 'stim/neutralRight.png'
+143.2644 	EXP 	cues: autoDraw = True
+143.2644 	EXP 	fixationshort: autoDraw = True
+143.3781 	EXP 	cues: autoDraw = False
+143.7613 	EXP 	target: autoDraw = True
+143.7778 	EXP 	fixationshort: autoDraw = False
+144.3378 	EXP 	New trial (rep=0, index=28): OrderedDict([('cue', 'stim/lower.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+144.3431 	DATA 	Keypress: right
+144.3463 	EXP 	cues: autoDraw = False
+144.3463 	EXP 	target: autoDraw = False
+144.3463 	EXP 	fixationshort: autoDraw = False
+144.3463 	EXP 	image: autoDraw = True
+144.7632 	EXP 	image: autoDraw = False
+144.7632 	EXP 	image: autoDraw = False
+144.7632 	EXP 	cues: image = 'stim/lower.png'
+144.7632 	EXP 	target: ori = 180.0
+144.7632 	EXP 	target: image = 'stim/congRight.png'
+144.7632 	EXP 	cues: autoDraw = True
+144.7632 	EXP 	fixationshort: autoDraw = True
+144.8765 	EXP 	cues: autoDraw = False
+145.2605 	EXP 	target: autoDraw = True
+145.2770 	EXP 	fixationshort: autoDraw = False
+145.7362 	EXP 	New trial (rep=0, index=29): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+145.7403 	DATA 	Keypress: left
+145.7435 	EXP 	cues: autoDraw = False
+145.7435 	EXP 	target: autoDraw = False
+145.7435 	EXP 	fixationshort: autoDraw = False
+145.7435 	EXP 	image: autoDraw = True
+146.1952 	EXP 	image: autoDraw = False
+146.1952 	EXP 	image: autoDraw = False
+146.1952 	EXP 	cues: image = 'stim/blank.png'
+146.1952 	EXP 	target: ori = 0.0
+146.1952 	EXP 	target: image = 'stim/incongLeft.png'
+146.1952 	EXP 	cues: autoDraw = True
+146.1952 	EXP 	fixationshort: autoDraw = True
+146.3092 	EXP 	cues: autoDraw = False
+146.6923 	EXP 	target: autoDraw = True
+146.7088 	EXP 	fixationshort: autoDraw = False
+147.2144 	EXP 	New trial (rep=0, index=30): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+147.2168 	DATA 	Keypress: left
+147.2246 	EXP 	cues: autoDraw = False
+147.2246 	EXP 	target: autoDraw = False
+147.2246 	EXP 	fixationshort: autoDraw = False
+147.2246 	EXP 	image: autoDraw = True
+147.7747 	EXP 	image: autoDraw = False
+147.7747 	EXP 	image: autoDraw = False
+147.7747 	EXP 	cues: image = 'stim/centre.png'
+147.7747 	EXP 	target: ori = 0.0
+147.7747 	EXP 	target: image = 'stim/congLeft.png'
+147.7747 	EXP 	cues: autoDraw = True
+147.7747 	EXP 	fixationshort: autoDraw = True
+147.8743 	EXP 	cues: autoDraw = False
+148.2577 	EXP 	target: autoDraw = True
+148.2741 	EXP 	fixationshort: autoDraw = False
+148.6504 	EXP 	New trial (rep=0, index=31): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/neutralRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+148.6547 	DATA 	Keypress: left
+148.6580 	EXP 	cues: autoDraw = False
+148.6580 	EXP 	target: autoDraw = False
+148.6580 	EXP 	fixationshort: autoDraw = False
+148.6580 	EXP 	image: autoDraw = True
+149.1656 	EXP 	image: autoDraw = False
+149.1656 	EXP 	image: autoDraw = False
+149.1656 	EXP 	cues: image = 'stim/blank.png'
+149.1656 	EXP 	target: ori = 180.0
+149.1656 	EXP 	target: image = 'stim/neutralRight.png'
+149.1656 	EXP 	cues: autoDraw = True
+149.1656 	EXP 	fixationshort: autoDraw = True
+149.2734 	EXP 	cues: autoDraw = False
+149.6560 	EXP 	target: autoDraw = True
+149.6730 	EXP 	fixationshort: autoDraw = False
+150.1340 	EXP 	New trial (rep=0, index=32): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+150.1385 	DATA 	Keypress: left
+150.1417 	EXP 	cues: autoDraw = False
+150.1417 	EXP 	target: autoDraw = False
+150.1417 	EXP 	fixationshort: autoDraw = False
+150.1417 	EXP 	image: autoDraw = True
+150.5596 	EXP 	image: autoDraw = False
+150.5596 	EXP 	image: autoDraw = False
+150.5596 	EXP 	cues: image = 'stim/both.png'
+150.5596 	EXP 	target: ori = 0.0
+150.5596 	EXP 	target: image = 'stim/congRight.png'
+150.5596 	EXP 	cues: autoDraw = True
+150.5596 	EXP 	fixationshort: autoDraw = True
+150.6723 	EXP 	cues: autoDraw = False
+151.0556 	EXP 	target: autoDraw = True
+151.0719 	EXP 	fixationshort: autoDraw = False
+151.5111 	DATA 	Keypress: right
+151.5307 	EXP 	New trial (rep=0, index=33): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/neutralRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+151.5381 	EXP 	cues: autoDraw = False
+151.5381 	EXP 	target: autoDraw = False
+151.5381 	EXP 	fixationshort: autoDraw = False
+151.5381 	EXP 	image: autoDraw = True
+152.0884 	EXP 	image: autoDraw = False
+152.0884 	EXP 	image: autoDraw = False
+152.0884 	EXP 	cues: image = 'stim/centre.png'
+152.0884 	EXP 	target: ori = 0.0
+152.0884 	EXP 	target: image = 'stim/neutralRight.png'
+152.0884 	EXP 	cues: autoDraw = True
+152.0884 	EXP 	fixationshort: autoDraw = True
+152.1878 	EXP 	cues: autoDraw = False
+152.5707 	EXP 	target: autoDraw = True
+152.5875 	EXP 	fixationshort: autoDraw = False
+152.9926 	DATA 	Keypress: right
+153.0128 	EXP 	New trial (rep=0, index=34): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/incongRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+153.0202 	EXP 	cues: autoDraw = False
+153.0202 	EXP 	target: autoDraw = False
+153.0202 	EXP 	fixationshort: autoDraw = False
+153.0202 	EXP 	image: autoDraw = True
+153.5739 	EXP 	image: autoDraw = False
+153.5739 	EXP 	image: autoDraw = False
+153.5739 	EXP 	cues: image = 'stim/both.png'
+153.5739 	EXP 	target: ori = 0.0
+153.5739 	EXP 	target: image = 'stim/incongRight.png'
+153.5739 	EXP 	cues: autoDraw = True
+153.5739 	EXP 	fixationshort: autoDraw = True
+153.6865 	EXP 	cues: autoDraw = False
+154.0698 	EXP 	target: autoDraw = True
+154.0861 	EXP 	fixationshort: autoDraw = False
+154.6081 	DATA 	Keypress: right
+154.6288 	EXP 	New trial (rep=0, index=35): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/neutralRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+154.6362 	EXP 	cues: autoDraw = False
+154.6362 	EXP 	target: autoDraw = False
+154.6362 	EXP 	fixationshort: autoDraw = False
+154.6362 	EXP 	image: autoDraw = True
+155.0391 	EXP 	image: autoDraw = False
+155.0391 	EXP 	image: autoDraw = False
+155.0391 	EXP 	cues: image = 'stim/centre.png'
+155.0391 	EXP 	target: ori = 180.0
+155.0391 	EXP 	target: image = 'stim/neutralRight.png'
+155.0391 	EXP 	cues: autoDraw = True
+155.0391 	EXP 	fixationshort: autoDraw = True
+155.1519 	EXP 	cues: autoDraw = False
+155.5351 	EXP 	target: autoDraw = True
+155.5517 	EXP 	fixationshort: autoDraw = False
+155.9109 	EXP 	New trial (rep=0, index=36): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+155.9150 	DATA 	Keypress: left
+155.9182 	EXP 	cues: autoDraw = False
+155.9182 	EXP 	target: autoDraw = False
+155.9182 	EXP 	fixationshort: autoDraw = False
+155.9182 	EXP 	image: autoDraw = True
+156.3718 	EXP 	image: autoDraw = False
+156.3718 	EXP 	image: autoDraw = False
+156.3718 	EXP 	cues: image = 'stim/blank.png'
+156.3718 	EXP 	target: ori = 180.0
+156.3718 	EXP 	target: image = 'stim/congRight.png'
+156.3718 	EXP 	cues: autoDraw = True
+156.3718 	EXP 	fixationshort: autoDraw = True
+156.4840 	EXP 	cues: autoDraw = False
+156.8668 	EXP 	target: autoDraw = True
+156.8833 	EXP 	fixationshort: autoDraw = False
+157.2758 	EXP 	New trial (rep=0, index=37): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/neutralRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+157.2798 	DATA 	Keypress: left
+157.2833 	EXP 	cues: autoDraw = False
+157.2833 	EXP 	target: autoDraw = False
+157.2833 	EXP 	fixationshort: autoDraw = False
+157.2833 	EXP 	image: autoDraw = True
+157.7372 	EXP 	image: autoDraw = False
+157.7372 	EXP 	image: autoDraw = False
+157.7372 	EXP 	cues: image = 'stim/blank.png'
+157.7372 	EXP 	target: ori = 0.0
+157.7372 	EXP 	target: image = 'stim/neutralRight.png'
+157.7372 	EXP 	cues: autoDraw = True
+157.7372 	EXP 	fixationshort: autoDraw = True
+157.8495 	EXP 	cues: autoDraw = False
+158.2328 	EXP 	target: autoDraw = True
+158.2492 	EXP 	fixationshort: autoDraw = False
+158.5876 	DATA 	Keypress: right
+158.6084 	EXP 	New trial (rep=0, index=38): OrderedDict([('cue', 'stim/upper.png'), ('tar', 'stim/neutralRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+158.6156 	EXP 	cues: autoDraw = False
+158.6156 	EXP 	target: autoDraw = False
+158.6156 	EXP 	fixationshort: autoDraw = False
+158.6156 	EXP 	image: autoDraw = True
+159.0692 	EXP 	image: autoDraw = False
+159.0692 	EXP 	image: autoDraw = False
+159.0692 	EXP 	cues: image = 'stim/upper.png'
+159.0692 	EXP 	target: ori = 0.0
+159.0692 	EXP 	target: image = 'stim/neutralRight.png'
+159.0692 	EXP 	cues: autoDraw = True
+159.0692 	EXP 	fixationshort: autoDraw = True
+159.1819 	EXP 	cues: autoDraw = False
+159.5650 	EXP 	target: autoDraw = True
+159.5820 	EXP 	fixationshort: autoDraw = False
+159.9375 	DATA 	Keypress: right
+159.9568 	EXP 	New trial (rep=0, index=39): OrderedDict([('cue', 'stim/upper.png'), ('tar', 'stim/neutralLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+159.9645 	EXP 	cues: autoDraw = False
+159.9645 	EXP 	target: autoDraw = False
+159.9645 	EXP 	fixationshort: autoDraw = False
+159.9645 	EXP 	image: autoDraw = True
+160.4664 	EXP 	image: autoDraw = False
+160.4664 	EXP 	image: autoDraw = False
+160.4664 	EXP 	cues: image = 'stim/upper.png'
+160.4664 	EXP 	target: ori = 0.0
+160.4664 	EXP 	target: image = 'stim/neutralLeft.png'
+160.4664 	EXP 	cues: autoDraw = True
+160.4664 	EXP 	fixationshort: autoDraw = True
+160.5807 	EXP 	cues: autoDraw = False
+160.9639 	EXP 	target: autoDraw = True
+160.9805 	EXP 	fixationshort: autoDraw = False
+161.3887 	EXP 	New trial (rep=0, index=40): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+161.3928 	DATA 	Keypress: right
+161.3934 	DATA 	Keypress: left
+161.3966 	EXP 	cues: autoDraw = False
+161.3966 	EXP 	target: autoDraw = False
+161.3966 	EXP 	fixationshort: autoDraw = False
+161.3966 	EXP 	image: autoDraw = True
+161.8513 	EXP 	image: autoDraw = False
+161.8513 	EXP 	image: autoDraw = False
+161.8513 	EXP 	cues: image = 'stim/centre.png'
+161.8513 	EXP 	target: ori = 180.0
+161.8513 	EXP 	target: image = 'stim/congLeft.png'
+161.8513 	EXP 	cues: autoDraw = True
+161.8513 	EXP 	fixationshort: autoDraw = True
+161.9629 	EXP 	cues: autoDraw = False
+162.3461 	EXP 	target: autoDraw = True
+162.3625 	EXP 	fixationshort: autoDraw = False
+162.8260 	EXP 	New trial (rep=0, index=41): OrderedDict([('cue', 'stim/upper.png'), ('tar', 'stim/incongRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+162.8315 	DATA 	Keypress: right
+162.8349 	EXP 	cues: autoDraw = False
+162.8349 	EXP 	target: autoDraw = False
+162.8349 	EXP 	fixationshort: autoDraw = False
+162.8349 	EXP 	image: autoDraw = True
+163.3513 	EXP 	image: autoDraw = False
+163.3513 	EXP 	image: autoDraw = False
+163.3513 	EXP 	cues: image = 'stim/upper.png'
+163.3513 	EXP 	target: ori = 0.0
+163.3513 	EXP 	target: image = 'stim/incongRight.png'
+163.3513 	EXP 	cues: autoDraw = True
+163.3513 	EXP 	fixationshort: autoDraw = True
+163.4617 	EXP 	cues: autoDraw = False
+163.8451 	EXP 	target: autoDraw = True
+163.8617 	EXP 	fixationshort: autoDraw = False
+164.2370 	EXP 	New trial (rep=0, index=42): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/incongRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+164.2419 	DATA 	Keypress: left
+164.2451 	EXP 	cues: autoDraw = False
+164.2451 	EXP 	target: autoDraw = False
+164.2451 	EXP 	fixationshort: autoDraw = False
+164.2451 	EXP 	image: autoDraw = True
+164.6982 	EXP 	image: autoDraw = False
+164.6982 	EXP 	image: autoDraw = False
+164.6982 	EXP 	cues: image = 'stim/centre.png'
+164.6982 	EXP 	target: ori = 0.0
+164.6982 	EXP 	target: image = 'stim/incongRight.png'
+164.6982 	EXP 	cues: autoDraw = True
+164.6982 	EXP 	fixationshort: autoDraw = True
+164.8106 	EXP 	cues: autoDraw = False
+165.1936 	EXP 	target: autoDraw = True
+165.2101 	EXP 	fixationshort: autoDraw = False
+165.7360 	EXP 	New trial (rep=0, index=43): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+165.7424 	DATA 	Keypress: right
+165.7456 	EXP 	cues: autoDraw = False
+165.7456 	EXP 	target: autoDraw = False
+165.7456 	EXP 	fixationshort: autoDraw = False
+165.7456 	EXP 	image: autoDraw = True
+166.3143 	EXP 	image: autoDraw = False
+166.3143 	EXP 	image: autoDraw = False
+166.3143 	EXP 	cues: image = 'stim/both.png'
+166.3143 	EXP 	target: ori = 180.0
+166.3143 	EXP 	target: image = 'stim/incongLeft.png'
+166.3143 	EXP 	cues: autoDraw = True
+166.3143 	EXP 	fixationshort: autoDraw = True
+166.4259 	EXP 	cues: autoDraw = False
+166.8093 	EXP 	target: autoDraw = True
+166.8257 	EXP 	fixationshort: autoDraw = False
+167.4173 	EXP 	New trial (rep=0, index=44): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/incongRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+167.4213 	DATA 	Keypress: right
+167.4250 	EXP 	cues: autoDraw = False
+167.4250 	EXP 	target: autoDraw = False
+167.4250 	EXP 	fixationshort: autoDraw = False
+167.4250 	EXP 	image: autoDraw = True
+167.9288 	EXP 	image: autoDraw = False
+167.9288 	EXP 	image: autoDraw = False
+167.9288 	EXP 	cues: image = 'stim/both.png'
+167.9288 	EXP 	target: ori = 180.0
+167.9288 	EXP 	target: image = 'stim/incongRight.png'
+167.9288 	EXP 	cues: autoDraw = True
+167.9288 	EXP 	fixationshort: autoDraw = True
+168.0416 	EXP 	cues: autoDraw = False
+168.4243 	EXP 	target: autoDraw = True
+168.4407 	EXP 	fixationshort: autoDraw = False
+168.9833 	EXP 	New trial (rep=0, index=45): OrderedDict([('cue', 'stim/lower.png'), ('tar', 'stim/incongRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+168.9870 	DATA 	Keypress: left
+168.9903 	EXP 	cues: autoDraw = False
+168.9903 	EXP 	target: autoDraw = False
+168.9903 	EXP 	fixationshort: autoDraw = False
+168.9903 	EXP 	image: autoDraw = True
+169.3951 	EXP 	image: autoDraw = False
+169.3951 	EXP 	image: autoDraw = False
+169.3951 	EXP 	cues: image = 'stim/lower.png'
+169.3951 	EXP 	target: ori = 180.0
+169.3951 	EXP 	target: image = 'stim/incongRight.png'
+169.3951 	EXP 	cues: autoDraw = True
+169.3951 	EXP 	fixationshort: autoDraw = True
+169.5066 	EXP 	cues: autoDraw = False
+169.8899 	EXP 	target: autoDraw = True
+169.9065 	EXP 	fixationshort: autoDraw = False
+170.3282 	DATA 	Keypress: left
+170.3492 	EXP 	New trial (rep=0, index=46): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/neutralLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+170.3559 	EXP 	cues: autoDraw = False
+170.3559 	EXP 	target: autoDraw = False
+170.3559 	EXP 	fixationshort: autoDraw = False
+170.3559 	EXP 	image: autoDraw = True
+170.8570 	EXP 	image: autoDraw = False
+170.8570 	EXP 	image: autoDraw = False
+170.8570 	EXP 	cues: image = 'stim/both.png'
+170.8570 	EXP 	target: ori = 0.0
+170.8570 	EXP 	target: image = 'stim/neutralLeft.png'
+170.8570 	EXP 	cues: autoDraw = True
+170.8570 	EXP 	fixationshort: autoDraw = True
+170.9722 	EXP 	cues: autoDraw = False
+171.3553 	EXP 	target: autoDraw = True
+171.3718 	EXP 	fixationshort: autoDraw = False
+171.8307 	EXP 	New trial (rep=0, index=47): OrderedDict([('cue', 'stim/lower.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+171.8347 	DATA 	Keypress: left
+171.8380 	EXP 	cues: autoDraw = False
+171.8380 	EXP 	target: autoDraw = False
+171.8380 	EXP 	fixationshort: autoDraw = False
+171.8380 	EXP 	image: autoDraw = True
+172.2424 	EXP 	image: autoDraw = False
+172.2424 	EXP 	image: autoDraw = False
+172.2424 	EXP 	cues: image = 'stim/lower.png'
+172.2424 	EXP 	target: ori = 180.0
+172.2424 	EXP 	target: image = 'stim/congLeft.png'
+172.2424 	EXP 	cues: autoDraw = True
+172.2424 	EXP 	fixationshort: autoDraw = True
+172.3544 	EXP 	cues: autoDraw = False
+172.7377 	EXP 	target: autoDraw = True
+172.7542 	EXP 	fixationshort: autoDraw = False
+173.2127 	EXP 	New trial (rep=1, index=0): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/incongRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+173.2176 	DATA 	Keypress: right
+173.2208 	EXP 	cues: autoDraw = False
+173.2208 	EXP 	target: autoDraw = False
+173.2208 	EXP 	fixationshort: autoDraw = False
+173.2208 	EXP 	image: autoDraw = True
+173.7754 	EXP 	image: autoDraw = False
+173.7754 	EXP 	image: autoDraw = False
+173.7754 	EXP 	cues: image = 'stim/blank.png'
+173.7754 	EXP 	target: ori = 0.0
+173.7754 	EXP 	target: image = 'stim/incongRight.png'
+173.7754 	EXP 	cues: autoDraw = True
+173.7754 	EXP 	fixationshort: autoDraw = True
+173.8862 	EXP 	cues: autoDraw = False
+174.2693 	EXP 	target: autoDraw = True
+174.2857 	EXP 	fixationshort: autoDraw = False
+174.8110 	EXP 	New trial (rep=1, index=1): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/incongRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+174.8153 	DATA 	Keypress: right
+174.8189 	EXP 	cues: autoDraw = False
+174.8189 	EXP 	target: autoDraw = False
+174.8189 	EXP 	fixationshort: autoDraw = False
+174.8189 	EXP 	image: autoDraw = True
+175.2235 	EXP 	image: autoDraw = False
+175.2235 	EXP 	image: autoDraw = False
+175.2235 	EXP 	cues: image = 'stim/both.png'
+175.2235 	EXP 	target: ori = 180.0
+175.2235 	EXP 	target: image = 'stim/incongRight.png'
+175.2235 	EXP 	cues: autoDraw = True
+175.2235 	EXP 	fixationshort: autoDraw = True
+175.3354 	EXP 	cues: autoDraw = False
+175.7187 	EXP 	target: autoDraw = True
+175.7349 	EXP 	fixationshort: autoDraw = False
+176.1601 	EXP 	New trial (rep=1, index=2): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/neutralLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+176.1645 	DATA 	Keypress: right
+176.1679 	EXP 	cues: autoDraw = False
+176.1679 	EXP 	target: autoDraw = False
+176.1679 	EXP 	fixationshort: autoDraw = False
+176.1679 	EXP 	image: autoDraw = True
+176.5724 	EXP 	image: autoDraw = False
+176.5724 	EXP 	image: autoDraw = False
+176.5724 	EXP 	cues: image = 'stim/both.png'
+176.5724 	EXP 	target: ori = 0.0
+176.5724 	EXP 	target: image = 'stim/neutralLeft.png'
+176.5724 	EXP 	cues: autoDraw = True
+176.5724 	EXP 	fixationshort: autoDraw = True
+176.6841 	EXP 	cues: autoDraw = False
+177.0673 	EXP 	target: autoDraw = True
+177.0839 	EXP 	fixationshort: autoDraw = False
+177.2885 	EXP 	New trial (rep=1, index=3): OrderedDict([('cue', 'stim/lower.png'), ('tar', 'stim/neutralLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+177.2915 	DATA 	Keypress: left
+177.2998 	EXP 	cues: autoDraw = False
+177.2998 	EXP 	target: autoDraw = False
+177.2998 	EXP 	fixationshort: autoDraw = False
+177.2998 	EXP 	image: autoDraw = True
+177.8546 	EXP 	image: autoDraw = False
+177.8546 	EXP 	image: autoDraw = False
+177.8546 	EXP 	cues: image = 'stim/lower.png'
+177.8546 	EXP 	target: ori = 180.0
+177.8546 	EXP 	target: image = 'stim/neutralLeft.png'
+177.8546 	EXP 	cues: autoDraw = True
+177.8546 	EXP 	fixationshort: autoDraw = True
+177.9662 	EXP 	cues: autoDraw = False
+178.1204 	DATA 	Keypress: right
+178.3496 	EXP 	target: autoDraw = True
+178.3661 	EXP 	fixationshort: autoDraw = False
+178.4892 	EXP 	New trial (rep=1, index=4): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/neutralRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+178.4918 	DATA 	Keypress: right
+178.4988 	EXP 	cues: autoDraw = False
+178.4988 	EXP 	target: autoDraw = False
+178.4988 	EXP 	fixationshort: autoDraw = False
+178.4988 	EXP 	image: autoDraw = True
+178.9031 	EXP 	image: autoDraw = False
+178.9031 	EXP 	image: autoDraw = False
+178.9031 	EXP 	cues: image = 'stim/centre.png'
+178.9031 	EXP 	target: ori = 180.0
+178.9031 	EXP 	target: image = 'stim/neutralRight.png'
+178.9031 	EXP 	cues: autoDraw = True
+178.9031 	EXP 	fixationshort: autoDraw = True
+179.0157 	EXP 	cues: autoDraw = False
+179.3988 	EXP 	target: autoDraw = True
+179.4154 	EXP 	fixationshort: autoDraw = False
+179.4412 	EXP 	New trial (rep=1, index=5): OrderedDict([('cue', 'stim/upper.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+179.4455 	DATA 	Keypress: left
+179.4488 	EXP 	cues: autoDraw = False
+179.4488 	EXP 	target: autoDraw = False
+179.4488 	EXP 	fixationshort: autoDraw = False
+179.4488 	EXP 	image: autoDraw = True
+179.8531 	EXP 	image: autoDraw = False
+179.8531 	EXP 	image: autoDraw = False
+179.8531 	EXP 	cues: image = 'stim/upper.png'
+179.8531 	EXP 	target: ori = 0.0
+179.8531 	EXP 	target: image = 'stim/congRight.png'
+179.8531 	EXP 	cues: autoDraw = True
+179.8531 	EXP 	fixationshort: autoDraw = True
+179.9650 	EXP 	cues: autoDraw = False
+180.3479 	EXP 	target: autoDraw = True
+180.3644 	EXP 	fixationshort: autoDraw = False
+180.3706 	DATA 	Keypress: left
+180.3900 	EXP 	New trial (rep=1, index=6): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/neutralRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+180.3977 	EXP 	cues: autoDraw = False
+180.3977 	EXP 	target: autoDraw = False
+180.3977 	EXP 	fixationshort: autoDraw = False
+180.3977 	EXP 	image: autoDraw = True
+180.8971 	EXP 	image: autoDraw = False
+180.8971 	EXP 	image: autoDraw = False
+180.8971 	EXP 	cues: image = 'stim/blank.png'
+180.8971 	EXP 	target: ori = 180.0
+180.8971 	EXP 	target: image = 'stim/neutralRight.png'
+180.8971 	EXP 	cues: autoDraw = True
+180.8971 	EXP 	fixationshort: autoDraw = True
+180.9975 	EXP 	cues: autoDraw = False
+181.3804 	EXP 	target: autoDraw = True
+181.3971 	EXP 	fixationshort: autoDraw = False
+181.7717 	EXP 	New trial (rep=1, index=7): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/neutralLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+181.7756 	DATA 	Keypress: right
+181.7803 	EXP 	cues: autoDraw = False
+181.7803 	EXP 	target: autoDraw = False
+181.7803 	EXP 	fixationshort: autoDraw = False
+181.7803 	EXP 	image: autoDraw = True
+182.3341 	EXP 	image: autoDraw = False
+182.3341 	EXP 	image: autoDraw = False
+182.3341 	EXP 	cues: image = 'stim/blank.png'
+182.3341 	EXP 	target: ori = 180.0
+182.3341 	EXP 	target: image = 'stim/neutralLeft.png'
+182.3341 	EXP 	cues: autoDraw = True
+182.3341 	EXP 	fixationshort: autoDraw = True
+182.4461 	EXP 	cues: autoDraw = False
+182.8291 	EXP 	target: autoDraw = True
+182.8456 	EXP 	fixationshort: autoDraw = False
+183.1666 	DATA 	Keypress: left
+183.1843 	EXP 	New trial (rep=1, index=8): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+183.1949 	EXP 	cues: autoDraw = False
+183.1949 	EXP 	target: autoDraw = False
+183.1949 	EXP 	fixationshort: autoDraw = False
+183.1949 	EXP 	image: autoDraw = True
+183.5991 	EXP 	image: autoDraw = False
+183.5991 	EXP 	image: autoDraw = False
+183.5991 	EXP 	cues: image = 'stim/both.png'
+183.5991 	EXP 	target: ori = 180.0
+183.5991 	EXP 	target: image = 'stim/congRight.png'
+183.5991 	EXP 	cues: autoDraw = True
+183.5991 	EXP 	fixationshort: autoDraw = True
+183.7120 	EXP 	cues: autoDraw = False
+184.0951 	EXP 	target: autoDraw = True
+184.1119 	EXP 	fixationshort: autoDraw = False
+184.3342 	EXP 	New trial (rep=1, index=9): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/incongRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+184.3376 	DATA 	Keypress: left
+184.3440 	EXP 	cues: autoDraw = False
+184.3440 	EXP 	target: autoDraw = False
+184.3440 	EXP 	fixationshort: autoDraw = False
+184.3440 	EXP 	image: autoDraw = True
+184.7989 	EXP 	image: autoDraw = False
+184.7989 	EXP 	image: autoDraw = False
+184.7989 	EXP 	cues: image = 'stim/both.png'
+184.7989 	EXP 	target: ori = 0.0
+184.7989 	EXP 	target: image = 'stim/incongRight.png'
+184.7989 	EXP 	cues: autoDraw = True
+184.7989 	EXP 	fixationshort: autoDraw = True
+184.9107 	EXP 	cues: autoDraw = False
+185.2939 	EXP 	target: autoDraw = True
+185.3106 	EXP 	fixationshort: autoDraw = False
+185.5163 	EXP 	New trial (rep=1, index=10): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+185.5195 	DATA 	Keypress: left
+185.5265 	EXP 	cues: autoDraw = False
+185.5265 	EXP 	target: autoDraw = False
+185.5265 	EXP 	fixationshort: autoDraw = False
+185.5265 	EXP 	image: autoDraw = True
+185.9805 	EXP 	image: autoDraw = False
+185.9805 	EXP 	image: autoDraw = False
+185.9805 	EXP 	cues: image = 'stim/centre.png'
+185.9805 	EXP 	target: ori = 180.0
+185.9805 	EXP 	target: image = 'stim/congRight.png'
+185.9805 	EXP 	cues: autoDraw = True
+185.9805 	EXP 	fixationshort: autoDraw = True
+186.0931 	EXP 	cues: autoDraw = False
+186.4763 	EXP 	target: autoDraw = True
+186.4927 	EXP 	fixationshort: autoDraw = False
+186.7535 	EXP 	New trial (rep=1, index=11): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+186.7582 	DATA 	Keypress: right
+186.7614 	EXP 	cues: autoDraw = False
+186.7614 	EXP 	target: autoDraw = False
+186.7614 	EXP 	fixationshort: autoDraw = False
+186.7614 	EXP 	image: autoDraw = True
+187.2298 	EXP 	image: autoDraw = False
+187.2298 	EXP 	image: autoDraw = False
+187.2298 	EXP 	cues: image = 'stim/centre.png'
+187.2298 	EXP 	target: ori = 0.0
+187.2298 	EXP 	target: image = 'stim/congLeft.png'
+187.2298 	EXP 	cues: autoDraw = True
+187.2298 	EXP 	fixationshort: autoDraw = True
+187.3420 	EXP 	cues: autoDraw = False
+187.7252 	EXP 	target: autoDraw = True
+187.7419 	EXP 	fixationshort: autoDraw = False
+187.8654 	DATA 	Keypress: left
+187.8838 	EXP 	New trial (rep=1, index=12): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+187.8914 	EXP 	cues: autoDraw = False
+187.8914 	EXP 	target: autoDraw = False
+187.8914 	EXP 	fixationshort: autoDraw = False
+187.8914 	EXP 	image: autoDraw = True
+188.3967 	EXP 	image: autoDraw = False
+188.3967 	EXP 	image: autoDraw = False
+188.3967 	EXP 	cues: image = 'stim/centre.png'
+188.3967 	EXP 	target: ori = 0.0
+188.3967 	EXP 	target: image = 'stim/incongLeft.png'
+188.3967 	EXP 	cues: autoDraw = True
+188.3967 	EXP 	fixationshort: autoDraw = True
+188.5078 	EXP 	cues: autoDraw = False
+188.8909 	EXP 	target: autoDraw = True
+188.9074 	EXP 	fixationshort: autoDraw = False
+189.0321 	EXP 	New trial (rep=1, index=13): OrderedDict([('cue', 'stim/lower.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+189.0361 	DATA 	Keypress: right
+189.0404 	EXP 	cues: autoDraw = False
+189.0404 	EXP 	target: autoDraw = False
+189.0404 	EXP 	fixationshort: autoDraw = False
+189.0404 	EXP 	image: autoDraw = True
+189.4445 	EXP 	image: autoDraw = False
+189.4445 	EXP 	image: autoDraw = False
+189.4445 	EXP 	cues: image = 'stim/lower.png'
+189.4445 	EXP 	target: ori = 180.0
+189.4445 	EXP 	target: image = 'stim/incongLeft.png'
+189.4445 	EXP 	cues: autoDraw = True
+189.4445 	EXP 	fixationshort: autoDraw = True
+189.5571 	EXP 	cues: autoDraw = False
+189.9404 	EXP 	target: autoDraw = True
+189.9565 	EXP 	fixationshort: autoDraw = False
+190.1820 	EXP 	New trial (rep=1, index=14): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/incongRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+190.1862 	DATA 	Keypress: left
+190.1896 	EXP 	cues: autoDraw = False
+190.1896 	EXP 	target: autoDraw = False
+190.1896 	EXP 	fixationshort: autoDraw = False
+190.1896 	EXP 	image: autoDraw = True
+190.5905 	EXP 	image: autoDraw = False
+190.5905 	EXP 	image: autoDraw = False
+190.5905 	EXP 	cues: image = 'stim/blank.png'
+190.5905 	EXP 	target: ori = 180.0
+190.5905 	EXP 	target: image = 'stim/incongRight.png'
+190.5905 	EXP 	cues: autoDraw = True
+190.5905 	EXP 	fixationshort: autoDraw = True
+190.7063 	EXP 	cues: autoDraw = False
+191.0893 	EXP 	target: autoDraw = True
+191.1057 	EXP 	fixationshort: autoDraw = False
+191.4980 	EXP 	New trial (rep=1, index=15): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+191.5022 	DATA 	Keypress: left
+191.5053 	EXP 	cues: autoDraw = False
+191.5053 	EXP 	target: autoDraw = False
+191.5053 	EXP 	fixationshort: autoDraw = False
+191.5053 	EXP 	image: autoDraw = True
+192.0125 	EXP 	image: autoDraw = False
+192.0125 	EXP 	image: autoDraw = False
+192.0125 	EXP 	cues: image = 'stim/both.png'
+192.0125 	EXP 	target: ori = 180.0
+192.0125 	EXP 	target: image = 'stim/incongLeft.png'
+192.0125 	EXP 	cues: autoDraw = True
+192.0125 	EXP 	fixationshort: autoDraw = True
+192.1216 	EXP 	cues: autoDraw = False
+192.5047 	EXP 	target: autoDraw = True
+192.5214 	EXP 	fixationshort: autoDraw = False
+192.8808 	EXP 	New trial (rep=1, index=16): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/neutralRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+192.8870 	DATA 	Keypress: left
+192.8902 	EXP 	cues: autoDraw = False
+192.8902 	EXP 	target: autoDraw = False
+192.8902 	EXP 	fixationshort: autoDraw = False
+192.8902 	EXP 	image: autoDraw = True
+193.3062 	EXP 	image: autoDraw = False
+193.3062 	EXP 	image: autoDraw = False
+193.3062 	EXP 	cues: image = 'stim/both.png'
+193.3062 	EXP 	target: ori = 0.0
+193.3062 	EXP 	target: image = 'stim/neutralRight.png'
+193.3062 	EXP 	cues: autoDraw = True
+193.3062 	EXP 	fixationshort: autoDraw = True
+193.4204 	EXP 	cues: autoDraw = False
+193.8037 	EXP 	target: autoDraw = True
+193.8201 	EXP 	fixationshort: autoDraw = False
+194.0968 	EXP 	New trial (rep=1, index=17): OrderedDict([('cue', 'stim/upper.png'), ('tar', 'stim/incongRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+194.1019 	DATA 	Keypress: right
+194.1051 	EXP 	cues: autoDraw = False
+194.1051 	EXP 	target: autoDraw = False
+194.1051 	EXP 	fixationshort: autoDraw = False
+194.1051 	EXP 	image: autoDraw = True
+194.6218 	EXP 	image: autoDraw = False
+194.6218 	EXP 	image: autoDraw = False
+194.6218 	EXP 	cues: image = 'stim/upper.png'
+194.6218 	EXP 	target: ori = 0.0
+194.6218 	EXP 	target: image = 'stim/incongRight.png'
+194.6218 	EXP 	cues: autoDraw = True
+194.6218 	EXP 	fixationshort: autoDraw = True
+194.7359 	EXP 	cues: autoDraw = False
+195.1194 	EXP 	target: autoDraw = True
+195.1358 	EXP 	fixationshort: autoDraw = False
+195.3906 	DATA 	Keypress: left
+195.4122 	EXP 	New trial (rep=1, index=18): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/incongRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+195.4195 	EXP 	cues: autoDraw = False
+195.4195 	EXP 	target: autoDraw = False
+195.4195 	EXP 	fixationshort: autoDraw = False
+195.4195 	EXP 	image: autoDraw = True
+195.8374 	EXP 	image: autoDraw = False
+195.8374 	EXP 	image: autoDraw = False
+195.8374 	EXP 	cues: image = 'stim/centre.png'
+195.8374 	EXP 	target: ori = 180.0
+195.8374 	EXP 	target: image = 'stim/incongRight.png'
+195.8374 	EXP 	cues: autoDraw = True
+195.8374 	EXP 	fixationshort: autoDraw = True
+195.9519 	EXP 	cues: autoDraw = False
+196.3348 	EXP 	target: autoDraw = True
+196.3515 	EXP 	fixationshort: autoDraw = False
+196.5740 	DATA 	Keypress: left
+196.5930 	EXP 	New trial (rep=1, index=19): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+196.6009 	EXP 	cues: autoDraw = False
+196.6009 	EXP 	target: autoDraw = False
+196.6009 	EXP 	fixationshort: autoDraw = False
+196.6009 	EXP 	image: autoDraw = True
+197.1538 	EXP 	image: autoDraw = False
+197.1538 	EXP 	image: autoDraw = False
+197.1538 	EXP 	cues: image = 'stim/blank.png'
+197.1538 	EXP 	target: ori = 0.0
+197.1538 	EXP 	target: image = 'stim/congLeft.png'
+197.1538 	EXP 	cues: autoDraw = True
+197.1538 	EXP 	fixationshort: autoDraw = True
+197.2676 	EXP 	cues: autoDraw = False
+197.6505 	EXP 	target: autoDraw = True
+197.6669 	EXP 	fixationshort: autoDraw = False
+197.8208 	DATA 	Keypress: right
+197.8393 	EXP 	New trial (rep=1, index=20): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+197.8496 	EXP 	cues: autoDraw = False
+197.8496 	EXP 	target: autoDraw = False
+197.8496 	EXP 	fixationshort: autoDraw = False
+197.8496 	EXP 	image: autoDraw = True
+198.4035 	EXP 	image: autoDraw = False
+198.4035 	EXP 	image: autoDraw = False
+198.4035 	EXP 	cues: image = 'stim/both.png'
+198.4035 	EXP 	target: ori = 0.0
+198.4035 	EXP 	target: image = 'stim/congLeft.png'
+198.4035 	EXP 	cues: autoDraw = True
+198.4035 	EXP 	fixationshort: autoDraw = True
+198.5165 	EXP 	cues: autoDraw = False
+198.8998 	EXP 	target: autoDraw = True
+198.9159 	EXP 	fixationshort: autoDraw = False
+199.0064 	EXP 	New trial (rep=1, index=21): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+199.0097 	DATA 	Keypress: right
+199.0152 	EXP 	cues: autoDraw = False
+199.0152 	EXP 	target: autoDraw = False
+199.0152 	EXP 	fixationshort: autoDraw = False
+199.0152 	EXP 	image: autoDraw = True
+199.0683 	DATA 	Keypress: left
+199.4701 	EXP 	image: autoDraw = False
+199.4701 	EXP 	image: autoDraw = False
+199.4701 	EXP 	cues: image = 'stim/blank.png'
+199.4701 	EXP 	target: ori = 0.0
+199.4701 	EXP 	target: image = 'stim/incongLeft.png'
+199.4701 	EXP 	cues: autoDraw = True
+199.4701 	EXP 	fixationshort: autoDraw = True
+199.5821 	EXP 	cues: autoDraw = False
+199.9653 	EXP 	target: autoDraw = True
+199.9817 	EXP 	fixationshort: autoDraw = False
+200.4372 	DATA 	Keypress: left
+200.4567 	EXP 	New trial (rep=1, index=22): OrderedDict([('cue', 'stim/lower.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+200.4645 	EXP 	cues: autoDraw = False
+200.4645 	EXP 	target: autoDraw = False
+200.4645 	EXP 	fixationshort: autoDraw = False
+200.4645 	EXP 	image: autoDraw = True
+200.9693 	EXP 	image: autoDraw = False
+200.9693 	EXP 	image: autoDraw = False
+200.9693 	EXP 	cues: image = 'stim/lower.png'
+200.9693 	EXP 	target: ori = 180.0
+200.9693 	EXP 	target: image = 'stim/congRight.png'
+200.9693 	EXP 	cues: autoDraw = True
+200.9693 	EXP 	fixationshort: autoDraw = True
+201.0807 	EXP 	cues: autoDraw = False
+201.4635 	EXP 	target: autoDraw = True
+201.4800 	EXP 	fixationshort: autoDraw = False
+201.7392 	EXP 	New trial (rep=1, index=23): OrderedDict([('cue', 'stim/lower.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+201.7440 	DATA 	Keypress: left
+201.7472 	EXP 	cues: autoDraw = False
+201.7472 	EXP 	target: autoDraw = False
+201.7472 	EXP 	fixationshort: autoDraw = False
+201.7472 	EXP 	image: autoDraw = True
+202.1515 	EXP 	image: autoDraw = False
+202.1515 	EXP 	image: autoDraw = False
+202.1515 	EXP 	cues: image = 'stim/lower.png'
+202.1515 	EXP 	target: ori = 180.0
+202.1515 	EXP 	target: image = 'stim/congLeft.png'
+202.1515 	EXP 	cues: autoDraw = True
+202.1515 	EXP 	fixationshort: autoDraw = True
+202.2631 	EXP 	cues: autoDraw = False
+202.6460 	EXP 	target: autoDraw = True
+202.6628 	EXP 	fixationshort: autoDraw = False
+202.9221 	EXP 	New trial (rep=1, index=24): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/neutralLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+202.9260 	DATA 	Keypress: right
+202.9293 	EXP 	cues: autoDraw = False
+202.9293 	EXP 	target: autoDraw = False
+202.9293 	EXP 	fixationshort: autoDraw = False
+202.9293 	EXP 	image: autoDraw = True
+203.4332 	EXP 	image: autoDraw = False
+203.4332 	EXP 	image: autoDraw = False
+203.4332 	EXP 	cues: image = 'stim/centre.png'
+203.4332 	EXP 	target: ori = 0.0
+203.4332 	EXP 	target: image = 'stim/neutralLeft.png'
+203.4332 	EXP 	cues: autoDraw = True
+203.4332 	EXP 	fixationshort: autoDraw = True
+203.5456 	EXP 	cues: autoDraw = False
+203.9289 	EXP 	target: autoDraw = True
+203.9453 	EXP 	fixationshort: autoDraw = False
+204.1503 	DATA 	Keypress: right
+204.1721 	EXP 	New trial (rep=1, index=25): OrderedDict([('cue', 'stim/upper.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+204.1794 	EXP 	cues: autoDraw = False
+204.1794 	EXP 	target: autoDraw = False
+204.1794 	EXP 	fixationshort: autoDraw = False
+204.1794 	EXP 	image: autoDraw = True
+204.7492 	EXP 	image: autoDraw = False
+204.7492 	EXP 	image: autoDraw = False
+204.7492 	EXP 	cues: image = 'stim/upper.png'
+204.7492 	EXP 	target: ori = 0.0
+204.7492 	EXP 	target: image = 'stim/incongLeft.png'
+204.7492 	EXP 	cues: autoDraw = True
+204.7492 	EXP 	fixationshort: autoDraw = True
+204.8609 	EXP 	cues: autoDraw = False
+205.2442 	EXP 	target: autoDraw = True
+205.2608 	EXP 	fixationshort: autoDraw = False
+205.3037 	EXP 	New trial (rep=1, index=26): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+205.3084 	DATA 	Keypress: right
+205.3118 	EXP 	cues: autoDraw = False
+205.3118 	EXP 	target: autoDraw = False
+205.3118 	EXP 	fixationshort: autoDraw = False
+205.3118 	EXP 	image: autoDraw = True
+205.7815 	EXP 	image: autoDraw = False
+205.7815 	EXP 	image: autoDraw = False
+205.7815 	EXP 	cues: image = 'stim/both.png'
+205.7815 	EXP 	target: ori = 0.0
+205.7815 	EXP 	target: image = 'stim/congRight.png'
+205.7815 	EXP 	cues: autoDraw = True
+205.7815 	EXP 	fixationshort: autoDraw = True
+205.8935 	EXP 	cues: autoDraw = False
+206.2765 	EXP 	target: autoDraw = True
+206.2930 	EXP 	fixationshort: autoDraw = False
+206.4696 	EXP 	New trial (rep=1, index=27): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/neutralLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+206.4739 	DATA 	Keypress: right
+206.4771 	EXP 	cues: autoDraw = False
+206.4771 	EXP 	target: autoDraw = False
+206.4771 	EXP 	fixationshort: autoDraw = False
+206.4771 	EXP 	image: autoDraw = True
+206.8973 	EXP 	image: autoDraw = False
+206.8973 	EXP 	image: autoDraw = False
+206.8973 	EXP 	cues: image = 'stim/blank.png'
+206.8973 	EXP 	target: ori = 0.0
+206.8973 	EXP 	target: image = 'stim/neutralLeft.png'
+206.8973 	EXP 	cues: autoDraw = True
+206.8973 	EXP 	fixationshort: autoDraw = True
+207.0095 	EXP 	cues: autoDraw = False
+207.3921 	EXP 	target: autoDraw = True
+207.4088 	EXP 	fixationshort: autoDraw = False
+207.7185 	EXP 	New trial (rep=1, index=28): OrderedDict([('cue', 'stim/upper.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+207.7230 	DATA 	Keypress: right
+207.7262 	EXP 	cues: autoDraw = False
+207.7262 	EXP 	target: autoDraw = False
+207.7262 	EXP 	fixationshort: autoDraw = False
+207.7262 	EXP 	image: autoDraw = True
+208.2939 	EXP 	image: autoDraw = False
+208.2939 	EXP 	image: autoDraw = False
+208.2939 	EXP 	cues: image = 'stim/upper.png'
+208.2939 	EXP 	target: ori = 0.0
+208.2939 	EXP 	target: image = 'stim/congLeft.png'
+208.2939 	EXP 	cues: autoDraw = True
+208.2939 	EXP 	fixationshort: autoDraw = True
+208.4081 	EXP 	cues: autoDraw = False
+208.7916 	EXP 	target: autoDraw = True
+208.8080 	EXP 	fixationshort: autoDraw = False
+209.2631 	EXP 	New trial (rep=1, index=29): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+209.2656 	DATA 	Keypress: right
+209.2737 	EXP 	cues: autoDraw = False
+209.2737 	EXP 	target: autoDraw = False
+209.2737 	EXP 	fixationshort: autoDraw = False
+209.2737 	EXP 	image: autoDraw = True
+209.6735 	EXP 	image: autoDraw = False
+209.6735 	EXP 	image: autoDraw = False
+209.6735 	EXP 	cues: image = 'stim/both.png'
+209.6735 	EXP 	target: ori = 0.0
+209.6735 	EXP 	target: image = 'stim/incongLeft.png'
+209.6735 	EXP 	cues: autoDraw = True
+209.6735 	EXP 	fixationshort: autoDraw = True
+209.7734 	EXP 	cues: autoDraw = False
+210.0939 	DATA 	Keypress: left
+210.1568 	EXP 	target: autoDraw = True
+210.1733 	EXP 	fixationshort: autoDraw = False
+210.5826 	EXP 	New trial (rep=1, index=30): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+210.5870 	DATA 	Keypress: left
+210.5903 	EXP 	cues: autoDraw = False
+210.5903 	EXP 	target: autoDraw = False
+210.5903 	EXP 	fixationshort: autoDraw = False
+210.5903 	EXP 	image: autoDraw = True
+211.0113 	EXP 	image: autoDraw = False
+211.0113 	EXP 	image: autoDraw = False
+211.0113 	EXP 	cues: image = 'stim/blank.png'
+211.0113 	EXP 	target: ori = 0.0
+211.0113 	EXP 	target: image = 'stim/congRight.png'
+211.0113 	EXP 	cues: autoDraw = True
+211.0113 	EXP 	fixationshort: autoDraw = True
+211.1226 	EXP 	cues: autoDraw = False
+211.5060 	EXP 	target: autoDraw = True
+211.5222 	EXP 	fixationshort: autoDraw = False
+211.7817 	EXP 	New trial (rep=1, index=31): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/neutralRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+211.7857 	DATA 	Keypress: left
+211.7889 	EXP 	cues: autoDraw = False
+211.7889 	EXP 	target: autoDraw = False
+211.7889 	EXP 	fixationshort: autoDraw = False
+211.7889 	EXP 	image: autoDraw = True
+212.2927 	EXP 	image: autoDraw = False
+212.2927 	EXP 	image: autoDraw = False
+212.2927 	EXP 	cues: image = 'stim/blank.png'
+212.2927 	EXP 	target: ori = 0.0
+212.2927 	EXP 	target: image = 'stim/neutralRight.png'
+212.2927 	EXP 	cues: autoDraw = True
+212.2927 	EXP 	fixationshort: autoDraw = True
+212.4047 	EXP 	cues: autoDraw = False
+212.7882 	EXP 	target: autoDraw = True
+212.8048 	EXP 	fixationshort: autoDraw = False
+213.0631 	EXP 	New trial (rep=1, index=32): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+213.0672 	DATA 	Keypress: right
+213.0709 	EXP 	cues: autoDraw = False
+213.0709 	EXP 	target: autoDraw = False
+213.0709 	EXP 	fixationshort: autoDraw = False
+213.0709 	EXP 	image: autoDraw = True
+213.5243 	EXP 	image: autoDraw = False
+213.5243 	EXP 	image: autoDraw = False
+213.5243 	EXP 	cues: image = 'stim/blank.png'
+213.5243 	EXP 	target: ori = 180.0
+213.5243 	EXP 	target: image = 'stim/incongLeft.png'
+213.5243 	EXP 	cues: autoDraw = True
+213.5243 	EXP 	fixationshort: autoDraw = True
+213.6374 	EXP 	cues: autoDraw = False
+214.0205 	EXP 	target: autoDraw = True
+214.0367 	EXP 	fixationshort: autoDraw = False
+214.3293 	EXP 	New trial (rep=1, index=33): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+214.3338 	DATA 	Keypress: right
+214.3370 	EXP 	cues: autoDraw = False
+214.3370 	EXP 	target: autoDraw = False
+214.3370 	EXP 	fixationshort: autoDraw = False
+214.3370 	EXP 	image: autoDraw = True
+214.7880 	EXP 	image: autoDraw = False
+214.7880 	EXP 	image: autoDraw = False
+214.7880 	EXP 	cues: image = 'stim/centre.png'
+214.7880 	EXP 	target: ori = 0.0
+214.7880 	EXP 	target: image = 'stim/congRight.png'
+214.7880 	EXP 	cues: autoDraw = True
+214.7880 	EXP 	fixationshort: autoDraw = True
+214.9027 	EXP 	cues: autoDraw = False
+215.2861 	EXP 	target: autoDraw = True
+215.3023 	EXP 	fixationshort: autoDraw = False
+215.4108 	EXP 	New trial (rep=1, index=34): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/neutralLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+215.4150 	DATA 	Keypress: right
+215.4189 	EXP 	cues: autoDraw = False
+215.4189 	EXP 	target: autoDraw = False
+215.4189 	EXP 	fixationshort: autoDraw = False
+215.4189 	EXP 	image: autoDraw = True
+215.9232 	EXP 	image: autoDraw = False
+215.9232 	EXP 	image: autoDraw = False
+215.9232 	EXP 	cues: image = 'stim/both.png'
+215.9232 	EXP 	target: ori = 180.0
+215.9232 	EXP 	target: image = 'stim/neutralLeft.png'
+215.9232 	EXP 	cues: autoDraw = True
+215.9232 	EXP 	fixationshort: autoDraw = True
+216.0350 	EXP 	cues: autoDraw = False
+216.3399 	DATA 	Keypress: left
+216.4183 	EXP 	target: autoDraw = True
+216.4350 	EXP 	fixationshort: autoDraw = False
+216.8065 	EXP 	New trial (rep=1, index=35): OrderedDict([('cue', 'stim/upper.png'), ('tar', 'stim/neutralLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+216.8093 	DATA 	Keypress: left
+216.8181 	EXP 	cues: autoDraw = False
+216.8181 	EXP 	target: autoDraw = False
+216.8181 	EXP 	fixationshort: autoDraw = False
+216.8181 	EXP 	image: autoDraw = True
+217.2692 	EXP 	image: autoDraw = False
+217.2692 	EXP 	image: autoDraw = False
+217.2692 	EXP 	cues: image = 'stim/upper.png'
+217.2692 	EXP 	target: ori = 0.0
+217.2692 	EXP 	target: image = 'stim/neutralLeft.png'
+217.2692 	EXP 	cues: autoDraw = True
+217.2692 	EXP 	fixationshort: autoDraw = True
+217.3840 	EXP 	cues: autoDraw = False
+217.7673 	EXP 	target: autoDraw = True
+217.7839 	EXP 	fixationshort: autoDraw = False
+217.7929 	EXP 	New trial (rep=1, index=36): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/incongRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+217.7970 	DATA 	Keypress: right
+217.8002 	EXP 	cues: autoDraw = False
+217.8002 	EXP 	target: autoDraw = False
+217.8002 	EXP 	fixationshort: autoDraw = False
+217.8002 	EXP 	image: autoDraw = True
+218.2547 	EXP 	image: autoDraw = False
+218.2547 	EXP 	image: autoDraw = False
+218.2547 	EXP 	cues: image = 'stim/centre.png'
+218.2547 	EXP 	target: ori = 0.0
+218.2547 	EXP 	target: image = 'stim/incongRight.png'
+218.2547 	EXP 	cues: autoDraw = True
+218.2547 	EXP 	fixationshort: autoDraw = True
+218.3666 	EXP 	cues: autoDraw = False
+218.7496 	EXP 	target: autoDraw = True
+218.7664 	EXP 	fixationshort: autoDraw = False
+218.8927 	EXP 	New trial (rep=1, index=37): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/congRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+218.8971 	DATA 	Keypress: left
+218.9004 	EXP 	cues: autoDraw = False
+218.9004 	EXP 	target: autoDraw = False
+218.9004 	EXP 	fixationshort: autoDraw = False
+218.9004 	EXP 	image: autoDraw = True
+219.3695 	EXP 	image: autoDraw = False
+219.3695 	EXP 	image: autoDraw = False
+219.3695 	EXP 	cues: image = 'stim/blank.png'
+219.3695 	EXP 	target: ori = 180.0
+219.3695 	EXP 	target: image = 'stim/congRight.png'
+219.3695 	EXP 	cues: autoDraw = True
+219.3695 	EXP 	fixationshort: autoDraw = True
+219.4824 	EXP 	cues: autoDraw = False
+219.8657 	EXP 	target: autoDraw = True
+219.8820 	EXP 	fixationshort: autoDraw = False
+220.1739 	EXP 	New trial (rep=1, index=38): OrderedDict([('cue', 'stim/upper.png'), ('tar', 'stim/neutralRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+220.1779 	DATA 	Keypress: left
+220.1817 	EXP 	cues: autoDraw = False
+220.1817 	EXP 	target: autoDraw = False
+220.1817 	EXP 	fixationshort: autoDraw = False
+220.1817 	EXP 	image: autoDraw = True
+220.7346 	EXP 	image: autoDraw = False
+220.7346 	EXP 	image: autoDraw = False
+220.7346 	EXP 	cues: image = 'stim/upper.png'
+220.7346 	EXP 	target: ori = 0.0
+220.7346 	EXP 	target: image = 'stim/neutralRight.png'
+220.7346 	EXP 	cues: autoDraw = True
+220.7346 	EXP 	fixationshort: autoDraw = True
+220.8479 	EXP 	cues: autoDraw = False
+221.1678 	DATA 	Keypress: right
+221.2314 	EXP 	target: autoDraw = True
+221.2476 	EXP 	fixationshort: autoDraw = False
+221.6020 	DATA 	Keypress: right
+221.6213 	EXP 	New trial (rep=1, index=39): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+221.6303 	EXP 	cues: autoDraw = False
+221.6303 	EXP 	target: autoDraw = False
+221.6303 	EXP 	fixationshort: autoDraw = False
+221.6303 	EXP 	image: autoDraw = True
+222.0343 	EXP 	image: autoDraw = False
+222.0343 	EXP 	image: autoDraw = False
+222.0343 	EXP 	cues: image = 'stim/centre.png'
+222.0343 	EXP 	target: ori = 180.0
+222.0343 	EXP 	target: image = 'stim/congLeft.png'
+222.0343 	EXP 	cues: autoDraw = True
+222.0343 	EXP 	fixationshort: autoDraw = True
+222.1468 	EXP 	cues: autoDraw = False
+222.5303 	EXP 	target: autoDraw = True
+222.5463 	EXP 	fixationshort: autoDraw = False
+222.7831 	DATA 	Keypress: left
+223.2878 	EXP 	New trial (rep=1, index=40): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/neutralRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+223.2920 	DATA 	Keypress: left
+223.2956 	EXP 	cues: autoDraw = False
+223.2956 	EXP 	target: autoDraw = False
+223.2956 	EXP 	fixationshort: autoDraw = False
+223.2956 	EXP 	image: autoDraw = True
+223.7995 	EXP 	image: autoDraw = False
+223.7995 	EXP 	image: autoDraw = False
+223.7995 	EXP 	cues: image = 'stim/centre.png'
+223.7995 	EXP 	target: ori = 0.0
+223.7995 	EXP 	target: image = 'stim/neutralRight.png'
+223.7995 	EXP 	cues: autoDraw = True
+223.7995 	EXP 	fixationshort: autoDraw = True
+223.9115 	EXP 	cues: autoDraw = False
+224.2955 	EXP 	target: autoDraw = True
+224.3117 	EXP 	fixationshort: autoDraw = False
+224.4166 	DATA 	Keypress: right
+224.7842 	DATA 	Keypress: right
+224.8046 	EXP 	New trial (rep=1, index=41): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/neutralLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+224.8116 	EXP 	cues: autoDraw = False
+224.8116 	EXP 	target: autoDraw = False
+224.8116 	EXP 	fixationshort: autoDraw = False
+224.8116 	EXP 	image: autoDraw = True
+225.2629 	EXP 	image: autoDraw = False
+225.2629 	EXP 	image: autoDraw = False
+225.2629 	EXP 	cues: image = 'stim/centre.png'
+225.2629 	EXP 	target: ori = 180.0
+225.2629 	EXP 	target: image = 'stim/neutralLeft.png'
+225.2629 	EXP 	cues: autoDraw = True
+225.2629 	EXP 	fixationshort: autoDraw = True
+225.3772 	EXP 	cues: autoDraw = False
+225.7608 	EXP 	target: autoDraw = True
+225.7770 	EXP 	fixationshort: autoDraw = False
+226.0028 	EXP 	New trial (rep=1, index=42): OrderedDict([('cue', 'stim/blank.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+226.0067 	DATA 	Keypress: left
+226.0103 	EXP 	cues: autoDraw = False
+226.0103 	EXP 	target: autoDraw = False
+226.0103 	EXP 	fixationshort: autoDraw = False
+226.0103 	EXP 	image: autoDraw = True
+226.5145 	EXP 	image: autoDraw = False
+226.5145 	EXP 	image: autoDraw = False
+226.5145 	EXP 	cues: image = 'stim/blank.png'
+226.5145 	EXP 	target: ori = 180.0
+226.5145 	EXP 	target: image = 'stim/congLeft.png'
+226.5145 	EXP 	cues: autoDraw = True
+226.5145 	EXP 	fixationshort: autoDraw = True
+226.6266 	EXP 	cues: autoDraw = False
+227.0099 	EXP 	target: autoDraw = True
+227.0262 	EXP 	fixationshort: autoDraw = False
+227.3652 	DATA 	Keypress: left
+227.3853 	EXP 	New trial (rep=1, index=43): OrderedDict([('cue', 'stim/centre.png'), ('tar', 'stim/incongLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+227.3924 	EXP 	cues: autoDraw = False
+227.3924 	EXP 	target: autoDraw = False
+227.3924 	EXP 	fixationshort: autoDraw = False
+227.3924 	EXP 	image: autoDraw = True
+227.8961 	EXP 	image: autoDraw = False
+227.8961 	EXP 	image: autoDraw = False
+227.8961 	EXP 	cues: image = 'stim/centre.png'
+227.8961 	EXP 	target: ori = 180.0
+227.8961 	EXP 	target: image = 'stim/incongLeft.png'
+227.8961 	EXP 	cues: autoDraw = True
+227.8961 	EXP 	fixationshort: autoDraw = True
+228.0089 	EXP 	cues: autoDraw = False
+228.3921 	EXP 	target: autoDraw = True
+228.4085 	EXP 	fixationshort: autoDraw = False
+228.6505 	EXP 	New trial (rep=1, index=44): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+228.6543 	DATA 	Keypress: left
+228.6576 	EXP 	cues: autoDraw = False
+228.6576 	EXP 	target: autoDraw = False
+228.6576 	EXP 	fixationshort: autoDraw = False
+228.6576 	EXP 	image: autoDraw = True
+229.2148 	EXP 	image: autoDraw = False
+229.2148 	EXP 	image: autoDraw = False
+229.2148 	EXP 	cues: image = 'stim/both.png'
+229.2148 	EXP 	target: ori = 180.0
+229.2148 	EXP 	target: image = 'stim/congLeft.png'
+229.2148 	EXP 	cues: autoDraw = True
+229.2148 	EXP 	fixationshort: autoDraw = True
+229.3241 	EXP 	cues: autoDraw = False
+229.7077 	EXP 	target: autoDraw = True
+229.7239 	EXP 	fixationshort: autoDraw = False
+229.8333 	EXP 	New trial (rep=1, index=45): OrderedDict([('cue', 'stim/lower.png'), ('tar', 'stim/neutralRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+229.8376 	DATA 	Keypress: right
+229.8408 	EXP 	cues: autoDraw = False
+229.8408 	EXP 	target: autoDraw = False
+229.8408 	EXP 	fixationshort: autoDraw = False
+229.8408 	EXP 	image: autoDraw = True
+230.3939 	EXP 	image: autoDraw = False
+230.3939 	EXP 	image: autoDraw = False
+230.3939 	EXP 	cues: image = 'stim/lower.png'
+230.3939 	EXP 	target: ori = 180.0
+230.3939 	EXP 	target: image = 'stim/neutralRight.png'
+230.3939 	EXP 	cues: autoDraw = True
+230.3939 	EXP 	fixationshort: autoDraw = True
+230.5066 	EXP 	cues: autoDraw = False
+230.8900 	EXP 	target: autoDraw = True
+230.9063 	EXP 	fixationshort: autoDraw = False
+231.0495 	EXP 	New trial (rep=1, index=46): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/neutralRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+231.0541 	DATA 	Keypress: left
+231.0575 	EXP 	cues: autoDraw = False
+231.0575 	EXP 	target: autoDraw = False
+231.0575 	EXP 	fixationshort: autoDraw = False
+231.0575 	EXP 	image: autoDraw = True
+231.4769 	EXP 	image: autoDraw = False
+231.4769 	EXP 	image: autoDraw = False
+231.4769 	EXP 	cues: image = 'stim/both.png'
+231.4769 	EXP 	target: ori = 180.0
+231.4769 	EXP 	target: image = 'stim/neutralRight.png'
+231.4769 	EXP 	cues: autoDraw = True
+231.4769 	EXP 	fixationshort: autoDraw = True
+231.5892 	EXP 	cues: autoDraw = False
+231.9723 	EXP 	target: autoDraw = True
+231.9890 	EXP 	fixationshort: autoDraw = False
+232.2642 	EXP 	New trial (rep=1, index=47): OrderedDict([('cue', 'stim/lower.png'), ('tar', 'stim/incongRight.png'), ('corrAns', 'left'), ('targOrientation', 180)])
+232.2686 	DATA 	Keypress: left
+232.2717 	EXP 	cues: autoDraw = False
+232.2717 	EXP 	target: autoDraw = False
+232.2717 	EXP 	fixationshort: autoDraw = False
+232.2717 	EXP 	image: autoDraw = True
+232.8251 	EXP 	image: autoDraw = False
+232.8251 	EXP 	image: autoDraw = False
+232.8251 	EXP 	cues: image = 'stim/lower.png'
+232.8251 	EXP 	target: ori = 180.0
+232.8251 	EXP 	target: image = 'stim/incongRight.png'
+232.8251 	EXP 	cues: autoDraw = True
+232.8251 	EXP 	fixationshort: autoDraw = True
+232.9381 	EXP 	cues: autoDraw = False
+233.3212 	EXP 	target: autoDraw = True
+233.3378 	EXP 	fixationshort: autoDraw = False
+233.6832 	DATA 	Keypress: right
+233.6873 	EXP 	cues: autoDraw = False
+233.6873 	EXP 	target: autoDraw = False
+233.6873 	EXP 	fixationshort: autoDraw = False
+233.6873 	EXP 	rest: autoDraw = True
+236.5420 	DATA 	Keypress: right
+238.0906 	EXP 	New trial (rep=1, index=0): None
+238.1304 	EXP 	Imported cond.xlsx as conditions, 48 conditions, 4 params
+238.1324 	EXP 	Created sequence: random, trialTypes=48, nReps=2, seed=None
+238.1336 	EXP 	New trial (rep=0, index=0): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/neutralRight.png'), ('corrAns', 'right'), ('targOrientation', 0)])
+238.1367 	DATA 	Keypress: space
+238.1399 	EXP 	rest: autoDraw = False
+238.1399 	EXP 	image: autoDraw = True
+238.5549 	EXP 	image: autoDraw = False
+238.5549 	EXP 	image: autoDraw = False
+238.5549 	EXP 	cues: image = 'stim/both.png'
+238.5549 	EXP 	target: ori = 0.0
+238.5549 	EXP 	target: image = 'stim/neutralRight.png'
+238.5549 	EXP 	cues: autoDraw = True
+238.5549 	EXP 	fixationshort: autoDraw = True
+238.6666 	EXP 	cues: autoDraw = False
+238.9369 	DATA 	Keypress: left
+239.0500 	EXP 	target: autoDraw = True
+239.0664 	EXP 	fixationshort: autoDraw = False
+239.2143 	EXP 	New trial (rep=0, index=1): OrderedDict([('cue', 'stim/lower.png'), ('tar', 'stim/neutralLeft.png'), ('corrAns', 'right'), ('targOrientation', 180)])
+239.2187 	DATA 	Keypress: left
+239.2218 	EXP 	cues: autoDraw = False
+239.2218 	EXP 	target: autoDraw = False
+239.2218 	EXP 	fixationshort: autoDraw = False
+239.2218 	EXP 	image: autoDraw = True
+239.6322 	EXP 	image: autoDraw = False
+239.6322 	EXP 	image: autoDraw = False
+239.6322 	EXP 	cues: image = 'stim/lower.png'
+239.6322 	EXP 	target: ori = 180.0
+239.6322 	EXP 	target: image = 'stim/neutralLeft.png'
+239.6322 	EXP 	cues: autoDraw = True
+239.6322 	EXP 	fixationshort: autoDraw = True
+239.7323 	EXP 	cues: autoDraw = False
+240.0362 	DATA 	Keypress: right
+240.1158 	EXP 	target: autoDraw = True
+240.1321 	EXP 	fixationshort: autoDraw = False
+241.6212 	EXP 	New trial (rep=0, index=2): OrderedDict([('cue', 'stim/both.png'), ('tar', 'stim/congLeft.png'), ('corrAns', 'left'), ('targOrientation', 0)])
+241.6251 	DATA 	Keypress: escape
+241.6308 	EXP 	target: autoDraw = False
+241.6308 	EXP 	cues: autoDraw = False
+241.6308 	EXP 	target: autoDraw = False
+241.6308 	EXP 	fixationshort: autoDraw = False
+241.6308 	EXP 	image: autoDraw = True
+242.0839 	EXP 	window1: mouseVisible = True
